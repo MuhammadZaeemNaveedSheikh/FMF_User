@@ -42,7 +42,7 @@ const Sidebar: React.FC<SidebarProps> = ({ menuItem }) => {
             to={item.path}
             className={`font-[Montserrat] font-medium text-lg text-white ${
               isNavLinkActive(item.path)
-                ? "flex items-center mt-8 bg-[#d6c3f8] bg-opacity-50 pb-8"
+                ? "flex items-center mt-8 bg-[#221835] bg-opacity-40 pb-8"
                 : ""
             }`}
           >
