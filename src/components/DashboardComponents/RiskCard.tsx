@@ -1,19 +1,8 @@
-import React from "react";
-import { Card } from "@mui/material";
-
 import Star from "../../assets/images/riskStar.png";
 
 const RiskCard = () => {
   return (
-    <Card
-      sx={{
-        width: { md: 302, xl: 409 },
-        p: 2,
-        borderRadius: "14px",
-        backgroundColor: "#131119",
-        border: "1px solid #252525",
-      }}
-    >
+    <div className="w-[302px] xl:w-[409px] py-2 px-4 bg-[#131119] rounded-[14px] text-white border border-[#252525]">
       <h2 className="font-[Rubik] font-medium text-[24px] text-start">
         Risk Disclaimer
       </h2>
@@ -33,7 +22,7 @@ const RiskCard = () => {
           Read More
         </button>
       </div>
-    </Card>
+    </div>
   );
 };
 

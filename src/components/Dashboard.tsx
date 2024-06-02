@@ -1,7 +1,7 @@
 import { Typography, useTheme } from "@mui/material";
 import FilledCircle from "../assets/images/dashboardCircle.png";
 
-import { CTACouponCard, RiskCard, SizeTable } from "./DashboardComponents";
+import { RiskCard, SizeTable } from "./DashboardComponents";
 
 const Dashboard = () => {
   const theme = useTheme();
@@ -50,44 +50,43 @@ const Dashboard = () => {
         </Typography>
       </div>
 
-      <div className="text-start">
-        <Typography
-          sx={{
-            fontSize: 30,
-            fontWeight: 500,
-            ml: "26px",
-            color: theme.palette.mode === "light" ? "black" : "#ffffff",
-          }}
-        >
-          Fully Management Funded:
-        </Typography>
-      </div>
-
-      <div className="flex w-full justify-start">
-        <div className="flex flex-col items-center text-start">
-          <img
-            src={FilledCircle}
-            width={22}
-            height={22}
-            alt="complete"
-            className="my-2"
-          />
+      <div className="flex w-full justify-between items-start">
+        <div className="flex flex-col items-start">
           <Typography
             sx={{
-              fontSize: 20,
+              textAlign: "center",
+              fontSize: 30,
               fontWeight: 500,
-              fontFamily: "Rubik",
+              ml: "26px",
               color: theme.palette.mode === "light" ? "black" : "#ffffff",
             }}
           >
-            FULLY FUNDED
+            Fully Management Funded:
           </Typography>
+          <div className="flex flex-col items-center text-start">
+            <img
+              src={FilledCircle}
+              width={22}
+              height={22}
+              alt="complete"
+              className="my-2"
+            />
+            <Typography
+              sx={{
+                fontSize: 20,
+                fontWeight: 500,
+                fontFamily: "Rubik",
+                color: theme.palette.mode === "light" ? "black" : "#ffffff",
+              }}
+            >
+              FULLY FUNDED
+            </Typography>
+          </div>
         </div>
+        <RiskCard />
       </div>
 
-      <div className="flex">
-        {/* <RiskCard /> */}
-        {/* <CTACouponCard /> */}
+      <div className="w-full">
         <SizeTable />
       </div>
     </div>

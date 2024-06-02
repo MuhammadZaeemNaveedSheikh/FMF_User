@@ -1,4 +1,4 @@
-import { Card, TextField } from "@mui/material";
+import { TextField } from "@mui/material";
 
 import Logo from "../../assets/images/riskcardLogo.png";
 import InfoIcon from "../../assets/icons/InfoIcon";
@@ -7,16 +7,8 @@ const CTACouponCard = () => {
   return (
     <div>
       {" "}
-      <Card
-        sx={{
-          width: { md: 302, xl: 409 },
-          minHeight: 669,
-          p: 2,
-          borderRadius: "14px",
-          backgroundColor: "#131119",
-          border: "1px solid #252525",
-        }}
-      >
+      {/* <div className="w-[302px] xl:w-[409px] min-h-[669px] py-2 px-4 bg-[#131119] rounded-[14px] text-white border border-[#252525]"> */}
+      <div className="min-h-[669px] px-4 bg-[#131119] rounded-[14px] text-white border border-[#252525]">
         <div className="flex justify-center">
           <img src={Logo} alt="fully managed funded" />
         </div>
@@ -35,7 +27,7 @@ const CTACouponCard = () => {
         <p className="font-[Rubik] font-normal text-[16px] text-start">
           Coupon Code
         </p>
-        <div className="flex gap-2 items-center">
+        <div className="flex flex-wrap lg:flex-nowrap gap-2 items-center">
           <TextField
             id="coupon-code"
             type="text"
@@ -64,7 +56,7 @@ const CTACouponCard = () => {
         </p>
         <br />
 
-        <div className="flex gap-4 justify-between">
+        <div className="mb-6 flex gap-4 justify-between flex-wrap lg:flex-nowrap">
           <button className="bg-[#5B1CD4] rounded-lg w-[223px] h-[50px] font-[Rubik] font-semibold text-[16px] text-center mt-5">
             Get Funded
           </button>
@@ -83,7 +75,7 @@ const CTACouponCard = () => {
             </p>
           </div>
         </div>
-      </Card>
+      </div>
     </div>
   );
 };
