@@ -110,7 +110,7 @@ const DetailsSidebar: React.FC<DetailsSidebarProps> = ({
         <div className="flex gap-4 justify-center items-center mt-12 px-8">
           <img src="../../public/Icons/logo1.svg" alt="Logo" />
           <div className="font-[Montserrat] font-semibold text-[18px] text-white">
-            SYNDICATE FUNDED
+            FULLY MANAGED FUNDING
           </div>
         </div>
         <div className="md:mt-28 w-full flex justify-center items-center">

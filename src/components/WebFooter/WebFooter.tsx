@@ -37,7 +37,7 @@ export default function WebFooter() {
         <div className="py-5 mt-[0.88rem] md:pb-9 md:mt-[1.88rem] w-[95%] flex flex-col md:flex-row justify-between border-t border-solid border-white border-opacity-20">
           <div className="mb-4 md:mb-0">
             <Typography sx={stylesMui.copyrightText}>
-              Copyright © SYNDICATE FUNDED
+              Copyright © FULLY MANAGED FUNDING
             </Typography>
           </div>
           <Typography sx={stylesMui.copyrightText}>
