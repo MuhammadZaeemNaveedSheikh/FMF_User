@@ -108,26 +108,28 @@ const SizeTable = () => {
       <div className="ml-6 relative flex gap-8 lg:gap-10 mt-4">
         {sizes.map((size) => (
           <div key={size.value} className="text-center">
-            <div
-              onClick={() => handleSizeChange(size.value)}
-              className="cursor-pointer"
-            >
-              {selectedSize === size.value ? (
-                <SelectedCircle />
-              ) : (
-                <UnselectedCircle />
-              )}
+            <div className="flex flex-col justify-content">
+              <div
+                onClick={() => handleSizeChange(size.value)}
+                className="cursor-pointer"
+              >
+                {selectedSize === size.value ? (
+                  <SelectedCircle />
+                ) : (
+                  <UnselectedCircle />
+                )}
+              </div>
+              <Typography
+                sx={{
+                  fontSize: 14,
+                  fontWeight: selectedSize === size.value ? 600 : 400,
+                  color: theme.palette.mode === "light" ? "black" : "#ffffff",
+                  mt: 1,
+                }}
+              >
+                {size.label}
+              </Typography>
             </div>
-            <Typography
-              sx={{
-                fontSize: 14,
-                fontWeight: selectedSize === size.value ? 600 : 400,
-                color: theme.palette.mode === "light" ? "black" : "#ffffff",
-                mt: 1,
-              }}
-            >
-              {size.label}
-            </Typography>
             {selectedSize === size.value && selectedSize === 100000 && (
               <Typography
                 sx={{
@@ -142,47 +144,81 @@ const SizeTable = () => {
           </div>
         ))}
         <div
-          className={`w-[600px] absolute left-5 h-px bg-gray-800 -z-10 ${
-            selectedSize === 100000 ? "top-[17%]" : "top-[22%]"
+          className={`w-[645px] absolute left-5 h-px -z-10 ${
+            selectedSize === 100000
+              ? "top-[17%] w-[645px]"
+              : "top-[22%] w-[630px]"
           }`}
-          style={{ backgroundColor: "white" }}
+          style={{ backgroundColor: "#252525" }}
         ></div>
       </div>
 
       {/* TABLE  */}
-      <div className="mt-6 p-4 bg-gray-900 rounded-lg text-white">
-        <Typography variant="h6" className="text-center mb-4">
-          FULLY FUNDED <br /> Verification
-        </Typography>
+      <div className="mt-6 py-4 px-6 bg-[#131119] rounded-lg text-white border border-[#252525]">
+        <p className="font-[Rubik] font-bold text-[16px] ml-32">
+          FULLY
+          <br /> FUNDED
+        </p>
+        <p className="mb-2 font-[Rubik] font-normal text-[16px] ml-32">
+          Verification
+        </p>
         <table className="w-full">
           <tbody>
-            <tr>
-              <td className="py-2">Trading Period</td>
-              <td className="py-2 text-right">{data.tradingPeriod}</td>
+            <tr className="border-t border-[#FAF1E01A]">
+              <td className="py-5 font-[Rubik] font-medium text-[14px] text-start">
+                Trading Period
+              </td>
+              <td className="font-[Rubik] font-medium text-[16px] text-start">
+                {data.tradingPeriod}
+              </td>
             </tr>
-            <tr>
-              <td className="py-2">Withdrawals (Min. 1%)</td>
-              <td className="py-2 text-right">{data.withdrawals}</td>
+            <tr className="border-t border-[#FAF1E01A]">
+              <td className="py-5 font-[Rubik] font-medium text-[14px] text-start">
+                Withdrawals (Min. 1%)
+              </td>
+              <td className="font-[Rubik] font-medium text-[16px] text-start">
+                {data.withdrawals}
+              </td>
             </tr>
-            <tr>
-              <td className="py-2">Maximum Daily Loss</td>
-              <td className="py-2 text-right">{data.dailyLoss}</td>
+            <tr className="border-t border-[#FAF1E01A]">
+              <td className="py-5 font-[Rubik] font-medium text-[14px] text-start">
+                Maximum Daily Loss
+              </td>
+              <td className="font-[Rubik] font-medium text-[16px] text-start">
+                {data.dailyLoss}
+              </td>
             </tr>
-            <tr>
-              <td className="py-2">Account Equity Margin</td>
-              <td className="py-2 text-right">{data.equityMargin}</td>
+            <tr className="border-t border-[#FAF1E01A]">
+              <td className="py-5 font-[Rubik] font-medium text-[14px] text-start">
+                Account Equity Margin
+              </td>
+              <td className="font-[Rubik] font-medium text-[16px] text-start">
+                {data.equityMargin}
+              </td>
             </tr>
-            <tr>
-              <td className="py-2">Monthly Profit Target</td>
-              <td className="py-2 text-right">{data.profitTarget}</td>
+            <tr className="border-t border-[#FAF1E01A]">
+              <td className="py-5 font-[Rubik] font-medium text-[14px] text-start">
+                Monthly Profit Target
+              </td>
+              <td className="font-[Rubik] font-medium text-[16px] text-start">
+                {data.profitTarget}
+              </td>
             </tr>
-            <tr>
-              <td className="py-2">Account Leverage</td>
-              <td className="py-2 text-right">{data.leverage}</td>
+            <tr className="border-t border-[#FAF1E01A]">
+              <td className="py-5 font-[Rubik] font-medium text-[14px] text-start">
+                Account Leverage
+              </td>
+              <td className="font-[Rubik] font-medium text-[16px] text-start">
+                {data.leverage}
+              </td>
             </tr>
-            <tr>
-              <td className="py-2">Refundable Fee</td>
-              <td className="py-2 text-right">{data.refundableFee}</td>
+            <tr className="border-t border-[#FAF1E01A]">
+              <td className="py-5 font-[Rubik] font-medium text-[14px] text-start">
+                Refundable Fee
+              </td>
+              <td className="font-[Rubik] font-medium text-[16px] text-start">
+                {data.refundableFee}
+              </td>
             </tr>
           </tbody>
         </table>

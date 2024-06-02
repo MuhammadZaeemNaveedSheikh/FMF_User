@@ -22,7 +22,9 @@ const CTACouponCard = () => {
         </div>
 
         <div className="flex gap-2 items-center">
-          <p>Available Add-ons</p>
+          <p className="mt-2 font-[Inter] font-bold text-[15.25px] text-start">
+            Available Add-ons
+          </p>
           <InfoIcon />
         </div>
         <p className="mt-2 font-[Rubik] font-normal text-[16px] text-start">

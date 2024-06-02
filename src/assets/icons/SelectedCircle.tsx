@@ -1,6 +1,6 @@
 const SelectedCircle = () => {
   return (
-    <div>
+    <div className="flex justify-center">
       <svg
         width="23"
         height="22"
