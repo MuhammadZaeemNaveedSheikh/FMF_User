@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { Typography, useTheme } from "@mui/material";
 
 import SelectedCircle from "../../assets/icons/SelectedCircle";

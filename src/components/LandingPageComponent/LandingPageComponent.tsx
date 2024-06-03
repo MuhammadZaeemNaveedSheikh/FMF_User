@@ -20,7 +20,7 @@ import MobileappBotttomEllipse from "../../assets/images/landing/mobileappBottom
 const LandingPageComponent = () => {
   const [isTraditional, setIsTraditional] = useState(true);
   const [selectedTab, setSelectedTab] = useState(0);
-
+  // @ts-ignore
   const handleTabChange = (event: React.SyntheticEvent, newValue: number) => {
     setSelectedTab(newValue);
     setIsTraditional(newValue === 0);
