@@ -27,10 +27,10 @@ const FirstColumn = () => {
         </Typography>
         <Typography sx={stylesMui.contactText}>
           <a
-            href="mailto:support@syndicatefunded.com"
+            href="mailto:support@fullymanagedfunded.com"
             className="text-white no-underline"
           >
-            support@syndicatefunded.com
+            support@fullymanagedfunded.com
           </a>
         </Typography>
         <Typography sx={stylesMui.contactText}>

@@ -36,7 +36,8 @@ const AddFeaturesSection = () => {
           </div>
           <Typography sx={stylesMui.bodyText}>
             Get your login credentials within seconds of purchasing our program,
-            empowering you to start your trading journey with Syndicate Funded.
+            empowering you to start your trading journey with Fully Managed
+            Funded.
           </Typography>
         </div>
       </div>

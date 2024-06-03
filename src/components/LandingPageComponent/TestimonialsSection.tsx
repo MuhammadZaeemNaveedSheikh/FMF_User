@@ -136,7 +136,7 @@ const TestimonialsSection = () => {
       >
         <Typography sx={stylesMui.trustTitle}>
           Clients all over the world trust
-          <br /> Syndicate to Fund Their Accounts
+          <br /> Fully Managed Funded to Fund Their Accounts
         </Typography>
         <div className="w-full md:w-11/12 mt-14 md:mt-20 flex justify-between px-6 md:px-10 2xl:px-20 mb-12 md:mb-[5.48rem]">
           <div className="flex flex-col items-center justify-center">

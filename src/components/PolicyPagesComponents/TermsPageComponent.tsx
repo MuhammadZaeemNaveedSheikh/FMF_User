@@ -17,9 +17,9 @@ const TermsPageComponent = () => {
           <Typography sx={stylesMui.policyText}>
             These Terms of Use constitute a legally binding agreement made
             between you, whether personally or on behalf of an entity (“you”)
-            and Syndicate Funded LLC (“Company,” “we,” “us,” or “our”),
+            and Fully Managed Funded LLC (“Company,” “we,” “us,” or “our”),
             concerning your access to and use of the
-            http://www.syndicatefunded.com website as well as any other media
+            http://www.fullymanagedfunded.com website as well as any other media
             form, media channel, mobile website or mobile application related,
             linked, or otherwise connected thereto (collectively, the “Site”).
             We are registered in Dubai and have our registered office at (INSERT
@@ -49,32 +49,32 @@ const TermsPageComponent = () => {
             local laws, if and to the extent local laws are applicable. <br />
             <br />
             Trading Terms and conditions 1. Trading Rules and Guidelines 1.1 The
-            trading account and all funds remain the property of Syndicatefunded
-            & our Liquidity Provider, hereby referred to as ‘The Account Owner’.
-            Traders who are managing live simulated accounts hereby referred to
-            as ‘Traders’ are not liable for any losses incurred during their
-            authorized and acknowledged trading activity on the Account Owners’
-            funded accounts. Traders have no title, ownership, investment or
-            rights to the funds in the trading account. Traders may receive
-            account credentials, trade execution rights and statements for the
-            account on behalf of the account owner, yet are prohibited from any
-            direct contact with, or instruction to the broker or any other
-            intermediary. <br />
+            trading account and all funds remain the property of Fully Managed
+            Funded & our Liquidity Provider, hereby referred to as ‘The Account
+            Owner’. Traders who are managing live simulated accounts hereby
+            referred to as ‘Traders’ are not liable for any losses incurred
+            during their authorized and acknowledged trading activity on the
+            Account Owners’ funded accounts. Traders have no title, ownership,
+            investment or rights to the funds in the trading account. Traders
+            may receive account credentials, trade execution rights and
+            statements for the account on behalf of the account owner, yet are
+            prohibited from any direct contact with, or instruction to the
+            broker or any other intermediary. <br />
             <br />
-            Any such direct and non Syndicate Funded sanctioned contact with any
-            Syndicate Funded broker or intermediary will result in instant
-            termination and trading account closure. 1.2 Live funded traders who
-            successfully pass Phase 1 & 2 of the evaluation will be entitled to
-            the following Virtual Performance Fee made on the account: (80%)
-            Virtual Profit withdrawals on funded accounts are available
-            bi-weekly. There is no minimum withdrawal requirement. Please submit
-            a withdrawal request in the form of an invoice addressed to Alpha
-            Capital Group limited on the 14th & 28th of each month. All
-            withdrawals will be processed and paid within 3 business days. All
-            trades must be closed on the account at the time of making a
-            withdrawal request, trading can resume once the withdrawal amount
+            Any such direct and non Fully Managed Funded sanctioned contact with
+            any Fully Managed Funded broker or intermediary will result in
+            instant termination and trading account closure. 1.2 Live funded
+            traders who successfully pass Phase 1 & 2 of the evaluation will be
+            entitled to the following Virtual Performance Fee made on the
+            account: (80%) Virtual Profit withdrawals on funded accounts are
+            available bi-weekly. There is no minimum withdrawal requirement.
+            Please submit a withdrawal request in the form of an invoice
+            addressed to Alpha Capital Group limited on the 14th & 28th of each
+            month. All withdrawals will be processed and paid within 3 business
+            days. All trades must be closed on the account at the time of making
+            a withdrawal request, trading can resume once the withdrawal amount
             has been withdrawn from the trading Virtual account balance. Please
-            submit all withdrawal requests to support@syndicatefunded.com 1.3
+            submit all withdrawal requests to support@fullymanagedfunded.com 1.3
             Virtual Profit withdrawals will be sent via bank wire transfer, or
             cryptocurrency. We have partnered with a deliverable FX institution
             meaning our clients can benefit from 0.35% exchange rate fees when
@@ -91,21 +91,21 @@ const TermsPageComponent = () => {
             objectives within the set time frame and hasn’t breached any rules,
             then the trader will pass the evaluation phase and move onto Phase 2
             or a funded account. 1.8 Upon successful completion of the
-            evaluation phase(s), a trader’s agreement between Syndicate Funded
-            LLC and the trader will be signed prior to receiving the live
+            evaluation phase(s), a trader’s agreement between Fully Managed
+            Funded LLC and the trader will be signed prior to receiving the live
             simulated account. 1.9 Traders are not allow copy trading from other
             groups. We don’t not allow traders to copy other traders’ trades
             either. No Group copy trading is allowed. The only copy trading
             allowed is that from your own external account to your account with
-            Syndicate Funded. Any traders found copy trading other traders’
+            Fully Managed Funded. Any traders found copy trading other traders’
             trades will be subject to review and potential breach of agreement,
             meaning you will lose the funded account. 1.10 Tradeable Assets:
             FX/Indices/Commodities 1.11 ******Martingale EAs & Strategies are
-            not allowed. Syndicate Funded consider Martingale strategies to be
-            the following: Opening a position in the same direction whilst the
-            first position opened is in drawdown. If the consecutive position is
-            opened at an exponent more than 1.1x we consider this to be
-            martingale strategy. If the trader breaches this rule, it will
+            not allowed. Fully Managed Funded consider Martingale strategies to
+            be the following: Opening a position in the same direction whilst
+            the first position opened is in drawdown. If the consecutive
+            position is opened at an exponent more than 1.1x we consider this to
+            be martingale strategy. If the trader breaches this rule, it will
             result in a fail on the evaluation. 1.12 Hedging and stacking trades
             is allowed Hedging Is classified as the following: having trades
             running in both directions on the same instrument. Stacking is
@@ -577,43 +577,43 @@ const TermsPageComponent = () => {
             against us by virtue of having drafted them. You hereby waive any
             and all defences you may have based on the electronic form of these
             Terms of Use and the lack of signing by the parties hereto to
-            execute these Terms of Use. DISCLAIMER Syndicate Funded LLC does not
-            carry out any regulated activities, the only exclusive activities we
-            carry out are Proprietary Trading and Professional Training.
-            Consequently, we are not required to be authorized by the regulatory
-            authority. Traders do not have direct access to company capital, and
-            trade accounts with virtual funds, therefore, traders are not
-            required to have a money managers license. Syndicate Funded LLC is
-            not a broker, and do not accept deposits. All information provided
-            on this site is intended solely for the study purposes related to
-            trading on financial markets and does not serve in any way as a
-            specific investment recommendation, business recommendation,
-            investment opportunity analysis or similar general recommendation
-            regarding the trading of investment instruments. Trading in
-            financial markets is a high-risk activity and it is advised not to
-            risk more than one can afford to lose FUNDED ACCOUNT DISCLAIMER
-            Funded Account Disclaimer: Hypothetical or simulated performance
-            results have certain limitations. Unlike an actual performance
-            record, simulated results do not represent actual trading. Also,
-            because the trades have not actually been executed, the results may
-            have under-or-over compensated for the impact, if any, of certain
-            market factors, such as lack of liquidity. Simulated trading
-            programs, in general, are also subject to the fact that they are
-            designed with the benefit of hindsight. No representation is being
-            made that any account will or is likely to achieve Virtual profit or
-            losses similar to those shown. Syndicate Funded funded accounts are
-            not live trading accounts, they are fully simulated accounts
-            utilizing real market quotes from liquidity providers. The Traders
-            featured are representative only and includes selected traders who
-            allow their names to be publicly disclosed. Trader performance
-            quoted represents past performance in a simulated environment and
-            does not guarantee current or future performance. Further, financial
-            instrument trading involves substantial risk of loss and is not
-            suitable for every investor, trading activities referenced by or
-            undertaken utilizing Syndicate Funded may not be suitable for all
-            persons. CONTACT US In order to resolve a complaint regarding the
-            Site or to receive further information regarding use of the Site,
-            please contact us.
+            execute these Terms of Use. DISCLAIMER Fully Managed Funded LLC does
+            not carry out any regulated activities, the only exclusive
+            activities we carry out are Proprietary Trading and Professional
+            Training. Consequently, we are not required to be authorized by the
+            regulatory authority. Traders do not have direct access to company
+            capital, and trade accounts with virtual funds, therefore, traders
+            are not required to have a money managers license. Fully Managed
+            Funded LLC is not a broker, and do not accept deposits. All
+            information provided on this site is intended solely for the study
+            purposes related to trading on financial markets and does not serve
+            in any way as a specific investment recommendation, business
+            recommendation, investment opportunity analysis or similar general
+            recommendation regarding the trading of investment instruments.
+            Trading in financial markets is a high-risk activity and it is
+            advised not to risk more than one can afford to lose FUNDED ACCOUNT
+            DISCLAIMER Funded Account Disclaimer: Hypothetical or simulated
+            performance results have certain limitations. Unlike an actual
+            performance record, simulated results do not represent actual
+            trading. Also, because the trades have not actually been executed,
+            the results may have under-or-over compensated for the impact, if
+            any, of certain market factors, such as lack of liquidity. Simulated
+            trading programs, in general, are also subject to the fact that they
+            are designed with the benefit of hindsight. No representation is
+            being made that any account will or is likely to achieve Virtual
+            profit or losses similar to those shown. Fully Managed Funded funded
+            accounts are not live trading accounts, they are fully simulated
+            accounts utilizing real market quotes from liquidity providers. The
+            Traders featured are representative only and includes selected
+            traders who allow their names to be publicly disclosed. Trader
+            performance quoted represents past performance in a simulated
+            environment and does not guarantee current or future performance.
+            Further, financial instrument trading involves substantial risk of
+            loss and is not suitable for every investor, trading activities
+            referenced by or undertaken utilizing Fully Managed Funded may not
+            be suitable for all persons. CONTACT US In order to resolve a
+            complaint regarding the Site or to receive further information
+            regarding use of the Site, please contact us.
           </Typography>
         </div>
         <div className="w-[17%] hidden md:block" id="nav">

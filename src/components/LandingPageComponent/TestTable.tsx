@@ -5,7 +5,7 @@ import { stylesMui } from "./styles";
 const TestTable = () => {
   const theme = useTheme();
   const data = [
-    ["Syndicate Funded", "Phase 1", "Phase 2", "Funded"],
+    ["Fully Managed Funded", "Phase 1", "Phase 2", "Funded"],
     ["Max Trading Days", "Unlimited", "Unlimited", "N/A"],
     ["Virtual Profit Target", "8%", "8%", "8%"],
     ["Virtual Performance Fee", "N/A", "N/A", "80%"],

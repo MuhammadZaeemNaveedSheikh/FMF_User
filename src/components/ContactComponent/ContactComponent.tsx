@@ -37,7 +37,7 @@ const ContactComponent = () => {
             <div className="flex gap-2 xl:gap-4 flex-wrap lg:flex-nowrap">
               <img src={contactCardEmail} width="24px" height="24px" />
               <Typography sx={stylesMui.cardText}>
-                support@syndicatefunded.com
+                support@fullymanagedfunded.com
               </Typography>
             </div>
             <div

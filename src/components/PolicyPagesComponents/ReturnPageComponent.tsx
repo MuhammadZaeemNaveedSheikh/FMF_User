@@ -25,7 +25,7 @@ const ReturnPageComponent = () => {
             the time of placing the first trade on an evaluation account, the
             trader waives their right to request a refund. QUESTIONS If you have
             any questions concerning our return policy, please contact us at:
-            support@syndicatefunded.com
+            support@fullymanagedfunded.com
           </Typography>
         </div>
         <div className="w-[17%] hidden md:block" id="nav">

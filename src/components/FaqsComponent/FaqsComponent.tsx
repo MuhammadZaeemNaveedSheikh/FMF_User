@@ -30,9 +30,9 @@ const faqData = [
   },
   {
     question:
-      "What Tax Procedures Should I Follow When Using Syndicate Funded for Trading?",
+      "What Tax Procedures Should I Follow When Using Fully Managed Funded for Trading?",
     answer:
-      "Syndicate Funded doesn't offer tax advice. It is best to consult a financial counselor or accountant for tax-related questions as they can offer advice and guarantee that the tax laws in your area are followed.",
+      "Fully Managed Funded doesn't offer tax advice. It is best to consult a financial counselor or accountant for tax-related questions as they can offer advice and guarantee that the tax laws in your area are followed.",
   },
   {
     question: "Premium Monthly Trading competitions?",

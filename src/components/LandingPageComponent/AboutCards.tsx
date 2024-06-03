@@ -76,7 +76,7 @@ const AboutCards = () => {
           </div>
           <div className="flex flex-col gap-[0.62rem]">
             <Typography sx={stylesMui.aboutHeadings}>
-              Syndicate Markets
+              Fully Managed Funded Markets
             </Typography>
             <Typography sx={stylesMui.aboutCardText}>
               For our traders, our associated broker provides an
