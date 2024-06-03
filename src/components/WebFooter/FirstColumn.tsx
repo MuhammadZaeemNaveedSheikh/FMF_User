@@ -1,6 +1,6 @@
 import { Typography, useTheme } from "@mui/material";
 
-import SyndicateLogoIcon from "../../assets/icons/SyndicateLogoIcon";
+// import SyndicateLogoIcon from "../../assets/icons/SyndicateLogoIcon";
 import SyndicateLogoText from "../../assets/icons/SyndicateLogoText";
 
 import { stylesMui } from "./styles";
@@ -16,7 +16,7 @@ const FirstColumn = () => {
           to="/web/"
           className="logo-link flex justify-center items-center gap-2"
         >
-          <SyndicateLogoIcon color="#5B1CD4" />
+          {/* <SyndicateLogoIcon color="#5B1CD4" /> */}
           <SyndicateLogoText color={logoColor} />
         </NavLink>
       </div>
@@ -25,7 +25,9 @@ const FirstColumn = () => {
         <Typography sx={stylesMui.contactText}>
           Mon - Fri : 8am - 8 Pm (GST)
         </Typography>
-        <Typography sx={stylesMui.contactText}>
+        <Typography
+          sx={{ ...stylesMui.contactText, textTransform: "lowercase" }}
+        >
           <a
             href="mailto:support@fullymanagedfunded.com"
             className="text-white no-underline"

@@ -25,7 +25,7 @@ const FinancialJourney = () => {
         Start your financial journey with{" "}
         <span className="text-[#5B1CD4]">
           {" "}
-          Fully Managed Funded <br /> Funded today!
+          Fully Managed Funded <br /> today!
         </span>
       </Typography>
       <Typography
