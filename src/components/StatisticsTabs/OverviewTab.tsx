@@ -1,257 +1,143 @@
-import { Box, Typography, useTheme, LinearProgress } from "@mui/material";
-import Chart from "../Chart";
-import QuestionMarkIcon from "../QuestionMarkIcon";
+import { Typography, useTheme } from "@mui/material";
+import NorthIcon from "@mui/icons-material/North";
+import ArrowDownwardIcon from "@mui/icons-material/ArrowDownward";
+
+import StatisticsWebChart from "../StatisticWebChart";
+import EditIcon from "../../assets/images/editStats.png";
+import IncomeIcon from "../../assets/icons/IncomeIcon";
+import ExpenseIcon from "../../assets/icons/ExpenseIcon";
+
+interface ChallengeData {
+  iconSrc: string;
+  title: string;
+  value: number;
+  percentage: number;
+}
 
 const OverviewTab = () => {
   const theme = useTheme();
-
+  const data: ChallengeData[] = [
+    {
+      iconSrc: "/Icons/failedChallengeIcon.svg",
+      title: "Failed Challenges",
+      value: 27132,
+      percentage: +12,
+    },
+    {
+      iconSrc: "/Icons/fundedTraderIcon.svg",
+      title: "Funded Traders",
+      value: 27132,
+      percentage: +12,
+    },
+    {
+      iconSrc: "/Icons/withDrawIcon.svg",
+      title: "Withdrawn this month",
+      value: 27132,
+      percentage: -2,
+    },
+  ];
   return (
     <>
-      <div
-        id="top-stat-cards"
-        className="w-full flex flex-wrap gap-y-3 mt-3 justify-center md:justify-between"
-      >
-        <div className="h-[97px] shadow-lg bg-white bg-opacity-5 rounded-[10px] overflow-hidden p-6 w-[310px] sm:w-[350px] xl:w-[475px]">
-          <div className="flex justify-between items-center pb-1">
-            <Typography
-              variant="body1"
-              sx={{ color: theme.palette.mode === "light" ? "black" : "white" }}
+      <div className="mx-4 md:mx-6 xl:mx-12 mt-12 z-10">
+        <div className="flex flex-wrap md:flex-nowrap justify-center md:gap-4 lg:gap-10 mt-6">
+          {data.map((item, index) => (
+            <div
+              key={index}
+              className={`w-full lg:w-[350px] lg:h-[280px] xl:w-[430px] rounded-2xl ${
+                theme.palette.mode === "light" ? "bg-gray-700" : "bg-white"
+              } bg-opacity-5 p-3 md:p-6`}
             >
-              Net Profit/Loss
-            </Typography>
-            <Typography
-              variant="body2"
-              sx={{
-                color: theme.palette.mode === "light" ? "black" : "#61FF00",
-              }}
-            >
-              +12.4%
-            </Typography>
-          </div>
-          <Typography
-            sx={{
-              fontSize: 18,
-              color: theme.palette.mode === "light" ? "black" : "white",
-            }}
-          >
-            $3,100
-          </Typography>
-        </div>
-        <div className="h-[97px] shadow-lg bg-white bg-opacity-5 rounded-[10px] overflow-hidden p-6 w-[310px] sm:w-[350px] xl:w-[475px]">
-          <div className="flex justify-between items-center pb-1">
-            <Typography
-              variant="body1"
-              sx={{ color: theme.palette.mode === "light" ? "black" : "white" }}
-            >
-              Target Profit
-            </Typography>
-            <Typography
-              sx={{
-                color: theme.palette.mode === "light" ? "black" : "#61FF00",
-              }}
-            >
-              6%
-            </Typography>
-          </div>
-          <Typography
-            sx={{
-              fontSize: 18,
-              color: theme.palette.mode === "light" ? "black" : "white",
-            }}
-          >
-            $27,000.00
-          </Typography>
-        </div>
-        <div className="h-[97px] shadow-lg bg-white bg-opacity-5 rounded-[10px] overflow-hidden p-6 w-[310px] sm:w-[350px] xl:w-[475px]">
-          <div className="flex justify-between items-center pb-1">
-            <div className="flex gap-2 items-center">
-              <Typography
-                variant="body1"
-                sx={{
-                  color: theme.palette.mode === "light" ? "black" : "white",
-                }}
-              >
-                Current Equity
-              </Typography>
-              <QuestionMarkIcon />
+              <div className="flex flex-col gap-10">
+                <div className="flex justify-between items-center">
+                  <img src={item.iconSrc} alt={`Icon for ${item.title}`} />
+                  <Typography
+                    sx={{
+                      fontWeight: 400,
+                      color: theme.palette.mode === "light" ? "black" : "white",
+                      fontSize: 21,
+                    }}
+                  >
+                    {item.title}
+                  </Typography>
+                </div>
+                <Typography
+                  sx={{
+                    fontWeight: 500,
+                    color: theme.palette.mode === "light" ? "black" : "white",
+                    fontSize: 40,
+                  }}
+                >
+                  {item.value}
+                </Typography>
+                <div className="flex justify-between items-center">
+                  <div className="flex flex-row items-center gap-2">
+                    {item.percentage < 0 ? (
+                      <>
+                        <ArrowDownwardIcon sx={{ color: "#E74545" }} />
+                        <Typography
+                          sx={{
+                            fontWeight: 600,
+                            color: "#E74545",
+                            fontSize: 19,
+                          }}
+                        >
+                          {item.percentage}%
+                        </Typography>
+                      </>
+                    ) : (
+                      <>
+                        <NorthIcon sx={{ color: "#23C581" }} />
+                        <Typography
+                          sx={{
+                            fontWeight: 600,
+                            color: "#23C581",
+                            fontSize: 19,
+                          }}
+                        >
+                          +{item.percentage}%
+                        </Typography>
+                      </>
+                    )}
+                    <Typography
+                      sx={{ fontWeight: 400, color: "#707B81", fontSize: 19 }}
+                    >
+                      on this week
+                    </Typography>
+                  </div>
+                  <img
+                    src={EditIcon}
+                    alt="Edit Icon"
+                    className="cursor-pointer"
+                  />
+                </div>
+              </div>
             </div>
-            <Typography
-              sx={{
-                color: theme.palette.mode === "light" ? "black" : "#61FF00",
-              }}
-              variant="body2"
-            >
-              6%
-            </Typography>
-          </div>
-          <Typography
-            sx={{
-              fontSize: 18,
-              color: theme.palette.mode === "light" ? "black" : "white",
-            }}
-          >
-            $28,100
-          </Typography>
+          ))}
         </div>
-        <div className="h-[97px] shadow-lg bg-white bg-opacity-5 rounded-[10px] overflow-hidden p-6 w-[310px] sm:w-[350px] xl:w-[475px]">
-          <div className="flex justify-between items-center pb-1">
-            <div className="flex gap-2 items-center">
-              <Typography
-                variant="body1"
-                sx={{
-                  color: theme.palette.mode === "light" ? "black" : "white",
-                }}
-              >
-                Previous Balance
-              </Typography>
-              <QuestionMarkIcon />
-            </div>
+        <div className="bg-white bg-opacity-5 p-6 mt-16 rounded-2xl">
+          <div className="flex justify-between">
             <Typography
               sx={{
-                color: theme.palette.mode === "light" ? "black" : "#61FF00",
+                fontWeight: 400,
+                fontFamily: "Poppins",
+                color: theme.palette.mode === "light" ? "black" : "white",
+                fontSize: { xs: 20, md: 28, lg: 40 },
+                ml: 2,
               }}
-              variant="body2"
             >
-              6%
+              Reports
             </Typography>
-          </div>
-          <Typography
-            sx={{
-              fontSize: 18,
-              color: theme.palette.mode === "light" ? "black" : "white",
-            }}
-          >
-            $25,000
-          </Typography>
-        </div>
-      </div>
-      <div className="flex flex-wrap gap-6 mt-4 justify-center md:justify-between">
-        {/* Max Loss Limit  */}
-        <div className="shadow-lg rounded-[10px] overflow-hidden p-6 md:w-[50%] bg-white bg-opacity-5">
-          <div className="flex gap-2 items-center">
-            <Typography
-              variant="body1"
-              sx={{ color: theme.palette.mode === "light" ? "black" : "white" }}
-            >
-              Max Loss Limit
-            </Typography>
-            <QuestionMarkIcon />
-          </div>
-          <Box sx={{ width: "100%", my: 1 }}>
-            <LinearProgress
-              variant="determinate"
-              value={25} // Set the progress value (0 to 100)
-              sx={{
-                ".MuiLinearProgress-bar": {
-                  bgcolor: "#5B1CD4",
-                },
-              }}
-            />
-          </Box>
-
-          <div className="flex flex-wrap justify-between items-start mt-4 gap-4 md:gap-8 ">
-            <div className="flex flex-col gap-y-2 ">
-              <Typography
-                sx={{
-                  fontSize: { xs: 10 },
-                  color: theme.palette.mode === "light" ? "black" : "white",
-                }}
-              >
-                Loss Level
-              </Typography>
-              <Typography
-                sx={{
-                  fontSize: { xs: 14 },
-                  color: theme.palette.mode === "light" ? "black" : "#D6C3F8",
-                }}
-              >
-                $24,578.2
-              </Typography>
-            </div>
-            <div className="flex flex-col gap-y-2">
-              <Typography
-                sx={{
-                  fontSize: { xs: 10 },
-                  color: theme.palette.mode === "light" ? "black" : "white",
-                }}
-              >
-                Initial Deposit
-              </Typography>
-              <Typography
-                sx={{
-                  fontSize: { xs: 14 },
-                  color: theme.palette.mode === "light" ? "black" : "#D6C3F8",
-                }}
-              >
-                $24,578.2
-              </Typography>
-            </div>
-            <div className="flex flex-col gap-y-2">
-              <Typography
-                sx={{
-                  fontSize: { xs: 10 },
-                  color: theme.palette.mode === "light" ? "black" : "white",
-                }}
-              >
-                Initial Deposit
-              </Typography>
-              <Typography
-                sx={{
-                  fontSize: { xs: 14 },
-                  color: theme.palette.mode === "light" ? "black" : "#D6C3F8",
-                }}
-              >
-                $24,578.2
-              </Typography>
-            </div>
-            <div className="flex flex-col gap-y-2">
-              <Typography
-                sx={{
-                  fontSize: { xs: 10 },
-                  color: theme.palette.mode === "light" ? "black" : "white",
-                }}
-              >
-                Balance Start Of Day
-              </Typography>
-              <Typography
-                sx={{
-                  fontSize: { xs: 14 },
-                  color: theme.palette.mode === "light" ? "black" : "#D6C3F8",
-                }}
-              >
-                $24,578.2
-              </Typography>
+            <div className="flex gap-12 items-center">
+              <IncomeIcon />
+              <p className="font-[Poppins] font-semibold text-[22px]">Income</p>
+              <ExpenseIcon />
+              <p className="font-[Poppins] font-semibold text-[22px]">
+                Expense
+              </p>
             </div>
           </div>
+          <StatisticsWebChart />
         </div>
-        {/* Time Remaining  */}
-        <div
-          id="time-remaining"
-          className="shadow-lg rounded-[10px] overflow-hidden p-6 md:w-[45%] bg-white bg-opacity-5"
-        >
-          <Typography
-            variant="body1"
-            sx={{ color: theme.palette.mode === "light" ? "black" : "white" }}
-          >
-            Time Remaining
-          </Typography>
-
-          <Typography sx={{ fontSize: 12, color: "#646464", mt: 1 }}>
-            Daily Drawdown Reset Time
-          </Typography>
-          <Typography
-            variant="body1"
-            sx={{
-              mt: 3,
-              color: theme.palette.mode === "light" ? "black" : "#D6C3F8",
-            }}
-          >
-            No Time Restriction
-          </Typography>
-        </div>
-      </div>
-      <div className="h-[362px] mt-6">
-        <Chart />
       </div>
     </>
   );
