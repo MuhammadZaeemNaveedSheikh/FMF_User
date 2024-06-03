@@ -8,13 +8,17 @@ import CtaRightIcon from "../../assets/icons/CtaRightIcon";
 import VerticalSeparator from "../../assets/icons/VerticalSeparator";
 import DiscordIcon from "../../assets/images/landing/discordJoinSocialsButton.png";
 import TelegramIcon from "../../assets/images/landing/telegramJoinSocialsButton.png";
-import InstagramIcon from "../../assets/images/landing/instagramJoinSocialsButton.png";
-import XIcon from "../../assets/images/landing/twitterJoinSocialsButton.png";
+// import InstagramIcon from "../../assets/images/landing/instagramJoinSocialsButton.png";
+// import XIcon from "../../assets/images/landing/twitterJoinSocialsButton.png";
 import HeroImage from "../../assets/images/landing/heroImage.png";
 
 import { stylesMui } from "./styles";
 
-const HeroSection = () => {
+interface HeroSectionProps {
+  isTraditional: boolean;
+}
+
+const HeroSection: React.FC<HeroSectionProps> = ({ isTraditional }) => {
   const theme = useTheme();
 
   const getBorderStyles = (theme) => ({
@@ -31,9 +35,11 @@ const HeroSection = () => {
         id="text-section"
       >
         <div className="w-full flex flex-col gap-4 items-center mb-[1.63rem]">
-          <Typography sx={stylesMui.pageTitle}>Revolutionize Your</Typography>
+          <Typography sx={stylesMui.pageTitle}>
+            {isTraditional ? "Get Fully Managed Funded" : "Revolutionize Your"}
+          </Typography>
           <Typography sx={{ ...stylesMui.pageTitle, color: "#5B1CD4" }}>
-            Trading Game
+            {isTraditional ? "& Earn Automated Passive Income" : "Trading Game"}
           </Typography>
           <Typography sx={stylesMui.subHeroText}>
             <s style={{ textDecoration: "line-through" }}>No time limit</s> | $0
@@ -58,8 +64,8 @@ const HeroSection = () => {
               </Typography>
               <img src={DiscordIcon} width="24px" height="24px" />
               <img src={TelegramIcon} width="24px" height="24px" />
-              <img src={InstagramIcon} width="24px" height="24px" />
-              <img src={XIcon} width="24px" height="24px" />
+              {/* <img src={InstagramIcon} width="24px" height="24px" />
+              <img src={XIcon} width="24px" height="24px" /> */}
             </div>
           </Button>
         </div>

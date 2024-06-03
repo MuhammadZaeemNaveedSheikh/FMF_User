@@ -10,7 +10,8 @@ import FeatureIcon3 from "../../assets/images/landing/revolutionizeIcon3.svg";
 import FeatureIcon4 from "../../assets/images/landing/revolutionizeIcon4.svg";
 import FeatureIcon5 from "../../assets/images/landing/revolutionizeIcon5.svg";
 
-import RevolutionizeImage from "../../assets/images/landing/revolutionizeImage.png";
+// import RevolutionizeImage from "../../assets/images/landing/revolutionizeImage.png";
+import RevolutionizeImage from "../../assets/images/landing/StatisticsAccounts.png";
 import RevolutionizeImage2 from "../../assets/images/landing/revolutionizeImage2.png";
 import RevolutionizeImage3 from "../../assets/images/landing/revolutionizeImage3.png";
 import RevolutionizeImage4 from "../../assets/images/landing/revolutionizeImage4.png";

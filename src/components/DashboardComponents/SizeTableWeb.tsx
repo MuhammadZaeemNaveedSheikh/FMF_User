@@ -186,7 +186,7 @@ const SizeTableWeb = () => {
   return (
     <div>
       <div className="flex w-full flex-wrap md:flex-nowrap justify-center md:justify-between items-start">
-        <div className="text-start">
+        <div className="text-center md:text-start">
           <Typography
             sx={{
               fontSize: 30,
@@ -249,7 +249,7 @@ const SizeTableWeb = () => {
         <RiskCardWeb />
       </div>
 
-      <div className="text-start">
+      <div className="text-center md:text-start">
         <Typography
           sx={{
             fontSize: 30,
@@ -265,7 +265,7 @@ const SizeTableWeb = () => {
       <div className="ml-6 relative flex flex-wrap md:flex-nowrap gap-2 md:gap-4 lg:gap-10 mt-4">
         {sizes.map((size) => (
           <div key={size.value} className="text-center">
-            <div className="flex flex-col justify-content">
+            <div className="flex flex-col justify-center">
               <div
                 onClick={() => handleSizeChange(size.value)}
                 className="cursor-pointer"

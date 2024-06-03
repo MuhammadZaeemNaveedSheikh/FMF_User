@@ -1,4 +1,5 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
+import { Tab, Tabs } from "@mui/material";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -17,18 +18,36 @@ import MobileappEllipse from "../../assets/images/landing/mobileappEllipse.svg";
 import MobileappBotttomEllipse from "../../assets/images/landing/mobileappBottomEllipse.svg";
 
 const LandingPageComponent = () => {
+  const [isTraditional, setIsTraditional] = useState(true);
+  const [selectedTab, setSelectedTab] = useState(0);
+
+  const handleTabChange = (event: React.SyntheticEvent, newValue: number) => {
+    setSelectedTab(newValue);
+    setIsTraditional(newValue === 0);
+  };
+
   useEffect(() => {
     AOS.init();
   }, []);
 
   return (
     <section className="w-full flex flex-col">
+      <Tabs
+        value={selectedTab}
+        onChange={handleTabChange}
+        centered
+        sx={{ color: "red !important" }}
+        indicatorColor="secondary"
+      >
+        <Tab label="Traditional" sx={{ color: "#5B1CD4 !important" }} />
+        <Tab label="Fully Funded" sx={{ color: "#5B1CD4 !important" }} />
+      </Tabs>
       <div
         className="mt-[3.25rem] md:mt-[5.25rem] xl:mt-[6.25rem] w-full flex flex-col z-10"
         data-aos="fade-up"
         data-aos-duration="3000"
       >
-        <HeroSection />
+        <HeroSection isTraditional={isTraditional} />
       </div>
       <div
         className="relative pt-[1.75rem] md:pt-[2.25rem] xl:pt-[3.76rem] w-full flex flex-col bg-white bg-opacity-[0.02]"
@@ -55,7 +74,7 @@ const LandingPageComponent = () => {
         data-aos="fade-up"
         data-aos-duration="3000"
       >
-        <TestSection />
+        <TestSection isTraditional={isTraditional} />
       </div>
       <div
         className="my-12 md:my-20 xl:my-[7.25rem] w-full flex flex-col"

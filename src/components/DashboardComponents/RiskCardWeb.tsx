@@ -2,7 +2,7 @@ import Star from "../../assets/images/riskStar.png";
 
 const RiskCardWeb = () => {
   return (
-    <div className="w-[309px] md:w-[360px] xl:w-[480px] py-2 px-4 bg-[#131119] rounded-[14px] text-white border border-[#252525]">
+    <div className="w-[309px] md:w-[360px] xl:w-[480px] py-2 px-4 bg-[#131119] rounded-[14px] text-white border border-[#252525] z-10">
       <h2 className="font-[Rubik] font-medium text-[24px] text-start">
         Risk Disclaimer
       </h2>
