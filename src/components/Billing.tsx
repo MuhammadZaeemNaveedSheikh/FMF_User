@@ -82,12 +82,13 @@ const rows = [
   },
   // Add more rows as needed
 ];
+
 const Billing = () => {
   const theme = useTheme();
   return (
     <div className="mx-4 sm:mx-6 xl:mx-10 mt-12">
       <div className="flex flex-col md:flex-row justify-between gap-y-4">
-        <MainTitleComponent title="Billing" />
+        <MainTitleComponent title="Payment History" />
       </div>
 
       <div

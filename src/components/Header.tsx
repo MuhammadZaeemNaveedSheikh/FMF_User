@@ -186,7 +186,7 @@ const Header: React.FC<HeaderProps> = ({ menuItem }) => {
               }}
             />
           </IconButton>
-          <div className="hidden lg:block">
+          {/* <div className="hidden lg:block">
             <Tooltip title={`Activate ${activateName} Mode`}>
               <div className="flex items-center">
                 <Switch
@@ -205,7 +205,7 @@ const Header: React.FC<HeaderProps> = ({ menuItem }) => {
                 />
               </div>
             </Tooltip>
-          </div>{" "}
+          </div>{" "} */}
         </div>
       </div>
       <div

@@ -20,7 +20,7 @@ const StatisticsWeb = () => {
   const data: ChallengeData[] = [
     {
       iconSrc: "/Icons/failedChallengeIcon.svg",
-      title: "Failed Challenges",
+      title: "Trading Activity",
       value: 27132,
       percentage: +12,
     },

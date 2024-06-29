@@ -1,11 +1,6 @@
 import { NavLink, useLocation } from "react-router-dom";
 
-import { useContext, useMemo } from "react";
-import { Switch, Tooltip, Typography, useTheme } from "@mui/material";
-import LightModeIcon from "@mui/icons-material/LightMode";
-import DarkModeIcon from "@mui/icons-material/DarkMode";
-
-import { ThemeContext } from "../../theme/ThemeContextProvider";
+import { Typography, useTheme } from "@mui/material";
 
 import HeaderEllipse from "../../assets/images/HeaderEllipse.png";
 import HeaderStarsLeft from "../../assets/images/HeaderStarsLeft.svg";
@@ -19,20 +14,11 @@ import LoginButton from "./LoginButton";
 
 const WebDesktopHeader = () => {
   const theme = useTheme();
-  const { switchColorMode } = useContext(ThemeContext);
   const location = useLocation();
-
-  const activateName = useMemo(
-    () => (theme.palette.mode === "dark" ? "Light" : "Dark"),
-    [theme]
-  );
 
   const isNavLinkActive = (path: string) => {
     return location.pathname === path;
   };
-
-  const logoFill = theme.palette.mode === "light" ? "black" : "white";
-  const isLight = theme.palette.mode === "light";
 
   return (
     <>
@@ -45,12 +31,12 @@ const WebDesktopHeader = () => {
           id="logo"
         >
           <NavLink to="/web/" className="logo-link z-10">
-            <LogoHeaderWeb fill={logoFill} />
+            <LogoHeaderWeb />
           </NavLink>
         </div>
 
         <div
-          className="relative flex justify-center items-center rounded-full bg-white bg-opacity-5"
+          className="relative flex justify-center items-center rounded-full"
           id="navbar"
         >
           <div className="absolute -top-16">
@@ -72,7 +58,7 @@ const WebDesktopHeader = () => {
                 to={item.path}
                 className={`font-[Montserrat] font-medium text-lg text-white ${
                   isNavLinkActive(item.path)
-                    ? "flex items-center bg-white bg-opacity-30 rounded-full m-1 h-10"
+                    ? "flex items-center bg-white bg-opacity-5 rounded-full m-1 h-10 px-2"
                     : ""
                 }`}
               >
@@ -81,7 +67,9 @@ const WebDesktopHeader = () => {
                     <Typography
                       sx={{
                         color:
-                          theme.palette.mode === "light" ? "black" : "white",
+                          theme.palette.mode === "light" ? "black" : "#C0C0C0",
+                        fontSize: 16,
+                        fontWeight: 400,
                       }}
                       variant="body1"
                     >
@@ -102,7 +90,7 @@ const WebDesktopHeader = () => {
             <RegisterButton />
             <LoginButton />
           </div>
-          <Tooltip title={`Activate ${activateName} Mode`}>
+          {/* <Tooltip title={`Activate ${activateName} Mode`}>
             <div className="flex items-center">
               <Switch
                 checked={theme.palette.mode === "dark"}
@@ -119,7 +107,7 @@ const WebDesktopHeader = () => {
                 }}
               />
             </div>
-          </Tooltip>
+          </Tooltip> */}
         </div>
       </div>
       <div className="flex justify-end xl:hidden gap-6 mt-4 mx-9">

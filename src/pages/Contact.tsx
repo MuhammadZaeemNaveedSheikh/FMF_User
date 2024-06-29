@@ -30,7 +30,7 @@ const Contact = () => {
             >
               People Are using <br />{" "}
               <span className="text-[#5B1CD4]">
-                Fully Managed Funding Around The Globe
+                Fully Managed Funded Around The Globe
               </span>
             </Typography>
             <div className="px-20 lg:px-52">

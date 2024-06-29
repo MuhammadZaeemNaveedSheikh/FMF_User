@@ -42,6 +42,15 @@ const SecondColumn = () => {
         Leaderboards
       </Link>
       <Link
+        to="/web/special-offers"
+        className={`font-[Poppins] md:text-[14px] xl:text-[18px] font-[400] no-underline text-center mt-2 ${
+          theme.palette.mode === "light" ? "text-gray-700" : "text-white"
+        } `}
+        onClick={scrollToTop}
+      >
+        Special Offers
+      </Link>
+      <Link
         to="/web/competitions"
         className={`font-[Poppins] md:text-[14px] xl:text-[18px] font-[400] no-underline text-center mt-2 ${
           theme.palette.mode === "light" ? "text-gray-700" : "text-white"
@@ -52,12 +61,12 @@ const SecondColumn = () => {
       </Link>
       <Link
         to="/web/certificates"
-        className={`font-[Poppins] md:text-[14px] xl:text-[18px] font-[400] no-underline text-center mt-2 ${
+        className={`font-[Poppins] md:text-[14px] xl:text-[18px] font-[400] no-underline text-start mt-2 ${
           theme.palette.mode === "light" ? "text-gray-700" : "text-white"
         } `}
         onClick={scrollToTop}
       >
-        Certificates
+        Education & Learning
       </Link>
       <Link
         to="/web/faqs"

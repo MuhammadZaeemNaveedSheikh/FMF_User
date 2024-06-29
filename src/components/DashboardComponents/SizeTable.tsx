@@ -48,7 +48,7 @@ const tableData = {
     withdrawals: "Monthly (30 days)",
     dailyLoss: "$5,000 (5%)",
     equityMargin: "$8,000 (10%)",
-    profitTarget: "$8,000 (1% to 5%)",
+    profitTarget: "$1k to $5k (1% to 5%)",
     leverage: "1:100 Max",
     refundableFee: "No Refunds",
   },

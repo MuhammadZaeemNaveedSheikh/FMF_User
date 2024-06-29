@@ -63,15 +63,15 @@ const CTACouponCard = () => {
           <div>
             <div className="flex gap-2">
               <h2 className="line-through font-[Rubik] font-medium text-[24px] text-start text-[#93A1A6]">
-                $497
+                $190k
               </h2>
 
               <h2 className="font-[Rubik] font-normal text-[24px] text-start">
-                $397
+                $120k
               </h2>
             </div>
             <p className="font-[Rubik] font-normal text-[16px] text-start text-[#93A1A6]">
-              For $100K Account
+              For $80K Account
             </p>
           </div>
         </div>

@@ -32,7 +32,7 @@ const Sidebar: React.FC<SidebarProps> = ({ menuItem }) => {
               theme.palette.mode === "light" ? "black" : "white"
             }`}
           >
-            FULLY MANAGED FUNDING
+            FULLY MANAGED FUNDED
           </div>
         </div>
       </NavLink>
