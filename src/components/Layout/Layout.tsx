@@ -13,6 +13,7 @@ import StatisticsIcon from "../StatisticsIcon";
 import FaqIcon from "../FaqIcon";
 import Diversity3Icon from "@mui/icons-material/Diversity3";
 import PreviewIcon from "@mui/icons-material/Preview";
+import AccountBalanceWalletIcon from "@mui/icons-material/AccountBalanceWallet";
 // import LegalIcon from "../LegalIcon";
 
 interface MenuItem {
@@ -40,7 +41,7 @@ export function Layout({ children }) {
     {
       id: 3,
       path: "/competitions",
-      name: "Competitions",
+      name: "Special Offers",
       icon: <CompetitionIcon />,
     },
     {
@@ -52,13 +53,13 @@ export function Layout({ children }) {
     {
       id: 5,
       path: "/certificates",
-      name: "Certificates",
+      name: "Education & Learning",
       icon: <CertificateIcon />,
     },
     {
       id: 6,
       path: "/billing",
-      name: "Billing",
+      name: "Payment History",
       icon: <BillingIcon />,
     },
     {
@@ -79,8 +80,18 @@ export function Layout({ children }) {
     },
     {
       id: 9,
+      path: "/wallet",
+      name: "Wallet",
+      icon: (
+        <AccountBalanceWalletIcon
+          sx={{ color: theme.palette.mode === "light" ? "black" : "white" }}
+        />
+      ),
+    },
+    {
+      id: 10,
       path: "/friends",
-      name: "Friends Corner",
+      name: "Friends Center",
       icon: (
         <Diversity3Icon
           sx={{ color: theme.palette.mode === "light" ? "black" : "white" }}
@@ -88,13 +99,13 @@ export function Layout({ children }) {
       ),
     },
     {
-      id: 10,
+      id: 11,
       path: "/faq",
       name: "FAQs",
       icon: <FaqIcon />,
     },
     {
-      id: 11,
+      id: 12,
       path: "/howitworks",
       name: "How It Works",
       icon: (

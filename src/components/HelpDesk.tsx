@@ -67,7 +67,7 @@ const HelpDesk = () => {
           Set up the profit targets & draw-down limits.
         </div>
         <div className="font-medium text-[#221835] font-[Montserrat] text-[14px] lg:text-[24px] line-[29.3px] mt-4">
-          Support@syndicatefunded.com
+          support@fullymanagedfunding.com
         </div>
 
         <div className="flex flex-col md:flex-row  gap-y-4 justify-start md:justify-between mt-3 items-start md:items-center">

@@ -15,13 +15,13 @@ const DisclaimerPageComponent = () => {
             Website Disclaimer
           </Typography>
           <Typography sx={stylesMui.policyText}>
-            The information provided by Syndicate Funded LLC (“we,” “us,” or
-            “our”) on http://www.syndicatefunded.com (the “Site”) is for general
-            informational purposes only. All information on the Site is provided
-            in good faith, however we make no representation or warranty of any
-            kind, express or implied, regarding the accuracy, adequacy,
-            validity, reliability, availability, or completeness of any
-            information on the Site. UNDER NO CIRCUMSTANCE SHALL WE HAVE ANY
+            The information provided by Fully Managed Funded LLC (“we,” “us,” or
+            “our”) on http://www.fullymanagedfunded.com (the “Site”) is for
+            general informational purposes only. All information on the Site is
+            provided in good faith, however we make no representation or
+            warranty of any kind, express or implied, regarding the accuracy,
+            adequacy, validity, reliability, availability, or completeness of
+            any information on the Site. UNDER NO CIRCUMSTANCE SHALL WE HAVE ANY
             LIABILITY TO YOU FOR ANY LOSS OR DAMAGE OF ANY KIND INCURRED AS A
             RESULT OF THE USE OF THE SITE OR RELIANCE ON ANY INFORMATION
             PROVIDED ON THE SITE. YOUR USE OF THE SITE AND YOUR RELIANCE ON ANY
@@ -40,15 +40,15 @@ const DisclaimerPageComponent = () => {
             WAY BE RESPONSIBLE FOR MONITORING ANY TRANSACTION BETWEEN YOU AND
             THIRD-PARTY PROVIDERS OF PRODUCTS OR SERVICES. <br />
             <br />
-            PROFESSIONAL DISCLAIMER Syndicate Funded LLC does not carry out any
-            regulated activities, the only exclusive activities we carry out are
-            Proprietary Trading and Professional Training. Consequently, we are
-            not required to be authorized by the regulatory authority. Traders
-            do not have direct access to company capital, and trade accounts
-            with virtual funds, therefore, traders are not required to have a
-            money managers license. Syndicate Funded is not a broker, and does
-            not accept deposits. All information provided on this site is
-            intended solely for the study purposes related to trading on
+            PROFESSIONAL DISCLAIMER Fully Managed Funded LLC does not carry out
+            any regulated activities, the only exclusive activities we carry out
+            are Proprietary Trading and Professional Training. Consequently, we
+            are not required to be authorized by the regulatory authority.
+            Traders do not have direct access to company capital, and trade
+            accounts with virtual funds, therefore, traders are not required to
+            have a money managers license. Fully Managed Funded is not a broker,
+            and does not accept deposits. All information provided on this site
+            is intended solely for the study purposes related to trading on
             financial markets and does not serve in any way as a specific
             investment recommendation, business recommendation, investment
             opportunity analysis or similar general recommendation regarding the
@@ -63,7 +63,7 @@ const DisclaimerPageComponent = () => {
             trading programs, in general, are also subject to the fact that they
             are designed with the benefit of hindsight. No representation is
             being made that any account will or is likely to achieve Virtual
-            profit or losses similar to those shown. Syndicate Funded funded
+            profit or losses similar to those shown. Fully Managed Funded funded
             accounts are not live trading accounts, they are fully simulated
             accounts utilizing real market quotes from liquidity providers. The
             Traders featured are representative only and includes selected
@@ -72,8 +72,8 @@ const DisclaimerPageComponent = () => {
             environment and does not guarantee current or future performance.
             Further, financial instrument trading involves substantial risk of
             loss and is not suitable for every investor, trading activities
-            referenced by or undertaken utilizing Syndicate Funded may not be
-            suitable for all persons. THE USE OR RELIANCE OF ANY INFORMATION
+            referenced by or undertaken utilizing Fully Managed Funded may not
+            be suitable for all persons. THE USE OR RELIANCE OF ANY INFORMATION
             CONTAINED ON THE SITE IS SOLELY AT YOUR OWN RISK. <br />
             <br />
             TESTIMONIALS DISCLAIMER The Site may contain testimonials by users

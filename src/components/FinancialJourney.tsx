@@ -25,7 +25,7 @@ const FinancialJourney = () => {
         Start your financial journey with{" "}
         <span className="text-[#5B1CD4]">
           {" "}
-          Syndicate <br /> Funded today!
+          Fully Managed Funded <br /> today!
         </span>
       </Typography>
       <Typography
@@ -38,9 +38,9 @@ const FinancialJourney = () => {
           mt: 2,
         }}
       >
-        Ready to take control of your finances? Join Syndicate now, and let us
-        help you achieve your financial goals with our tailored solutions and
-        exceptional customer service
+        Ready to take control of your finances? Join Fully Managed Funded now,
+        and let us help you achieve your financial goals with our tailored
+        solutions and exceptional customer service
       </Typography>
       <button className=" bg-[#5B1CD4] text-white font-medium text-lg font-[Poppins] cursor-pointer  px-5 py-3 rounded-[82px] mt-8">
         Open Account

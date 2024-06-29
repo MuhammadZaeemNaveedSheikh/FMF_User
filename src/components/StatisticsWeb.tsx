@@ -1,8 +1,13 @@
 import { Typography, useTheme } from "@mui/material";
 import NorthIcon from "@mui/icons-material/North";
 import ArrowDownwardIcon from "@mui/icons-material/ArrowDownward";
+
 import FinancialJourney from "./FinancialJourney";
 import StatisticsWebChart from "./StatisticWebChart";
+import EditIcon from "../assets/images/editStats.png";
+import IncomeIcon from "../assets/icons/IncomeIcon";
+import ExpenseIcon from "../assets/icons/ExpenseIcon";
+
 interface ChallengeData {
   iconSrc: string;
   title: string;
@@ -15,7 +20,7 @@ const StatisticsWeb = () => {
   const data: ChallengeData[] = [
     {
       iconSrc: "/Icons/failedChallengeIcon.svg",
-      title: "Failed Challenges",
+      title: "Trading Activity",
       value: 27132,
       percentage: +12,
     },
@@ -27,11 +32,10 @@ const StatisticsWeb = () => {
     },
     {
       iconSrc: "/Icons/withDrawIcon.svg",
-      title: "Paid out this month",
+      title: "Withdrawn this month",
       value: 27132,
       percentage: -2,
     },
-    // Add two more objects with similar structure for other data
   ];
   return (
     <>
@@ -133,24 +137,34 @@ const StatisticsWeb = () => {
                       on this week
                     </Typography>
                   </div>
-                  <img src="/Icons/editIconSuccess.svg" alt="Edit Icon" />
+                  <img src={EditIcon} alt="Edit Icon" className="pointer" />
                 </div>
               </div>
             </div>
           ))}
         </div>
         <div className="bg-white bg-opacity-5 p-6 mt-16 rounded-2xl">
-          <Typography
-            sx={{
-              fontWeight: 400,
-              fontFamily: "Poppins",
-              color: theme.palette.mode === "light" ? "black" : "white",
-              fontSize: { xs: 20, md: 28, lg: 40 },
-              ml: 2,
-            }}
-          >
-            Reports
-          </Typography>
+          <div className="flex justify-between">
+            <Typography
+              sx={{
+                fontWeight: 400,
+                fontFamily: "Poppins",
+                color: theme.palette.mode === "light" ? "black" : "white",
+                fontSize: { xs: 20, md: 28, lg: 40 },
+                ml: 2,
+              }}
+            >
+              Reports
+            </Typography>
+            <div className="flex gap-12 items-center">
+              <IncomeIcon />
+              <p className="font-[Poppins] font-semibold text-[22px]">Income</p>
+              <ExpenseIcon />
+              <p className="font-[Poppins] font-semibold text-[22px]">
+                Expense
+              </p>
+            </div>
+          </div>
           <StatisticsWebChart />
         </div>
       </div>

@@ -92,7 +92,7 @@ const Statistics = () => {
             fontFamily: "Montserrat",
             textTransform: "capitalize",
           }}
-          label="Overviews"
+          label="Overview"
         />
         <Tab
           sx={{

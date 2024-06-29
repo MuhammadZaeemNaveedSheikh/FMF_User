@@ -27,12 +27,12 @@ const AboutCards = () => {
         <div className="w-full flex flex-col gap-4 items-center mb-[1.63rem]">
           <Typography sx={stylesMui.pageSubheadings}>About</Typography>
           <Typography sx={{ ...stylesMui.pageSubheadings, color: "#5B1CD4" }}>
-            Syndicate Funded
+            Fully Managed Funded
           </Typography>
           <Typography sx={stylesMui.bodyText}>
-            At Syndicate Funded we are a team of experienced elite financial
-            professionals. Our unwavering focus is to empower beginner traders
-            with the tools & resources used to achieve unprecedented success.
+            We are a team of experienced elite financial professionals. Our
+            unwavering focus is to empower beginner traders with the tools &
+            resources used to achieve unprecedented success.
           </Typography>
         </div>
       </div>
@@ -76,7 +76,7 @@ const AboutCards = () => {
           </div>
           <div className="flex flex-col gap-[0.62rem]">
             <Typography sx={stylesMui.aboutHeadings}>
-              Syndicate Markets
+              Fully Managed Funded Markets
             </Typography>
             <Typography sx={stylesMui.aboutCardText}>
               For our traders, our associated broker provides an

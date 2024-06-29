@@ -1,196 +1,41 @@
 import { Typography, FormControl, TextField, useTheme } from "@mui/material";
-import NorthIcon from "@mui/icons-material/North";
-import ArrowDownwardIcon from "@mui/icons-material/ArrowDownward";
+
 import FinancialJourney from "./FinancialJourney";
-interface ChallengeData {
-  iconSrc: string;
-  title: string;
-  value: number;
-  percentage: number;
-}
+import Fish from "/Icons/affiliate-fish.svg";
+
+import { stylesMui } from "../pages/styles.js";
+import LeaderboardComponent from "./LeaderboardComponent/LeaderboardComponent.js";
+
 const AffiliatePortalWeb = () => {
   const theme = useTheme();
-  const data: ChallengeData[] = [
-    {
-      iconSrc: "/Icons/failedChallengeIcon.svg",
-      title: "Failed Challenges",
-      value: 27132,
-      percentage: +12,
-    },
-    {
-      iconSrc: "/Icons/fundedTraderIcon.svg",
-      title: "Funded Traders",
-      value: 27132,
-      percentage: +12,
-    },
-    {
-      iconSrc: "/Icons/withDrawIcon.svg",
-      title: "Paid out this month",
-      value: 27132,
-      percentage: -2,
-    },
-    // Add two more objects with similar structure for other data
-  ];
+
   return (
     <>
-      <div
-        className={`w-[55%] md:w-[30%] xl:w-[20%] mx-auto mt-12 ${
-          theme.palette.mode === "light" ? "bg-gray-700" : "bg-white"
-        } bg-opacity-5 p-6 rounded-2xl`}
-      >
-        <Typography
-          sx={{
-            fontSize: { xs: 16, sm: 26 },
-            color: theme.palette.mode === "light" ? "black" : "white",
-          }}
-        >
-          Money Earned
-        </Typography>
-        <Typography
-          sx={{
-            fontSize: { xs: 14, sm: 16 },
-            color: "#646464",
-            mt: 2,
-          }}
-        >
-          Available for payout
-        </Typography>
-        <Typography
-          sx={{
-            fontSize: { xs: 14, sm: 26 },
-            color: "#D6C3F8",
-            my: 2,
-          }}
-        >
-          $0.00
-        </Typography>
-        <button className=" bg-[#5B1CD4] text-white font-medium text-sm font-[Montserrat] cursor-pointer w-full py-2 rounded-md">
-          Withdraw
-        </button>
-        <Typography
-          sx={{
-            fontSize: { xs: 12, sm: 14 },
-            color: "#646464",
-            mt: 1,
-          }}
-        >
-          $100 minimum required withdrawal
-        </Typography>
+      <div className="w-full my-6 flex-wrap lg:flex-nowrap flex gap-4 justify-center px-12 lg:px-44">
+        <div className="w-full flex flex-col justify-center items-start rounded-2xl cursor-pointer p-1 lg:p-5 bg-[#151322]">
+          <h3 className="font-[Montserrat] text-[26px] font-medium">
+            20% Trading Fees
+          </h3>
+          <p className="font-[Montserrat] text-[16px] font-medium text-[#646464]">
+            (as 10% goes directly towards paying the fxbroker and liquidity
+            provider costs) List Item
+          </p>
+        </div>
+        <div className="w-full flex flex-col justify-center items-start rounded-2xl cursor-pointer p-1 lg:p-5 bg-[#151322]">
+          <h3 className="font-[Montserrat] text-[26px] font-medium">
+            5% upfront Licensing Fees
+          </h3>
+          <p className="font-[Montserrat] text-[16px] font-medium text-[#646464]">
+            (as 10% goes directly towards margining the trading account)
+          </p>
+        </div>
       </div>
-      <div
-        className={`w-[70%] lg:w-[40%] mx-auto mt-8 ${
-          theme.palette.mode === "light" ? "bg-gray-700" : "bg-white"
-        } bg-opacity-5 p-6 rounded-2xl`}
-      >
-        <Typography
-          sx={{
-            fontSize: { xs: 14, sm: 22 },
-            color: theme.palette.mode === "light" ? "black" : "white",
-          }}
-        >
-          Purchased Challenges
-        </Typography>
-        <Typography
-          sx={{
-            fontSize: { xs: 14, sm: 26 },
-            color: theme.palette.mode === "light" ? "black" : "white",
-            mt: 2,
-          }}
-        >
-          $0.00
-        </Typography>
-      </div>
+      <Typography sx={stylesMui.pageTitle}>
+        Tiers <br /> <span className="text-[#5B1CD4]">Refer</span> And
+        <span className="text-[#5B1CD4]"> Earn</span>
+      </Typography>
 
-      <div
-        className={`w-[70%] lg:w-[40%] mx-auto mt-8 ${
-          theme.palette.mode === "light" ? "bg-gray-700" : "bg-white"
-        } bg-opacity-5 p-6 rounded-2xl`}
-      >
-        <div className="flex items-center gap-3">
-          <Typography
-            sx={{
-              fontSize: { xs: 14, sm: 22 },
-              color: theme.palette.mode === "light" ? "black" : "white",
-            }}
-          >
-            Bonus
-          </Typography>
-          <img src="/Icons/questionMarkIcon.svg" alt="" />
-        </div>
-        <div className="flex justify-between items-center mt-2 ">
-          <div>
-            <Typography
-              sx={{
-                fontSize: 10,
-                fontWeight: 400,
-                color: theme.palette.mode === "light" ? "black" : "white",
-              }}
-            >
-              Until Next Bonus
-            </Typography>
-            <Typography
-              sx={{
-                fontSize: 14,
-                color: "  #D6C3F8",
-              }}
-            >
-              18%
-            </Typography>
-          </div>
-          <div>
-            <Typography
-              sx={{
-                fontSize: 10,
-                fontWeight: 400,
-                color: theme.palette.mode === "light" ? "black" : "white",
-              }}
-            >
-              Until Next Bonus
-            </Typography>
-            <Typography
-              sx={{
-                fontSize: 14,
-                color: "  #D6C3F8",
-              }}
-            >
-              18%
-            </Typography>
-          </div>
-          <div>
-            <Typography
-              sx={{
-                fontSize: 10,
-                fontWeight: 400,
-                color: theme.palette.mode === "light" ? "black" : "white",
-              }}
-            >
-              Until Next Bonus
-            </Typography>
-            <Typography
-              sx={{
-                fontSize: 14,
-                color: "  #D6C3F8",
-              }}
-            >
-              18%
-            </Typography>
-          </div>
-        </div>
-        <Typography
-          sx={{
-            fontSize: { xs: 14, sm: 20 },
-            color: theme.palette.mode === "light" ? "black" : "white",
-            mt: 2,
-          }}
-        >
-          $0.00
-        </Typography>
-      </div>
-      <div
-        className={`w-[94%] lg:w-[50%] mx-auto ${
-          theme.palette.mode === "light" ? "bg-gray-700" : "bg-white"
-        } bg-opacity-5 p-6 mt-8`}
-      >
+      <div className="my-6 w-[94%] lg:w-[50%] mx-auto rounded-2xl cursor-pointer p-1 lg:p-5 bg-[#151322]">
         <Typography
           sx={{
             fontSize: { xs: 16, sm: 26 },
@@ -223,76 +68,101 @@ const AffiliatePortalWeb = () => {
           </button>
         </div>
       </div>
-      <div className="flex flex-wrap justify-center gap-10 mt-6">
-        {data.map((item, index) => (
-          <div
-            key={index}
-            className={`w-full md:w-[350px] lg:h-[276px] rounded-2xl ${
-              theme.palette.mode === "light" ? "bg-gray-700" : "bg-white"
-            } bg-opacity-5 p-3 md:p-6`}
-          >
-            <div className="flex flex-col gap-10">
-              <div className="flex justify-between items-center">
-                <img src={item.iconSrc} alt={`Icon for ${item.title}`} />
-                <Typography
-                  sx={{
-                    fontWeight: 400,
-                    color: theme.palette.mode === "light" ? "black" : "white",
-                    fontSize: 21,
-                  }}
-                >
-                  {item.title}
-                </Typography>
-              </div>
-              <Typography
-                sx={{
-                  fontWeight: 500,
-                  color: theme.palette.mode === "light" ? "black" : "white",
-                  fontSize: 40,
-                }}
-              >
-                {item.value}
-              </Typography>
-              <div className="flex justify-between items-center">
-                <div className="flex flex-row items-center gap-2">
-                  {item.percentage < 0 ? (
-                    <>
-                      <ArrowDownwardIcon sx={{ color: "#E74545" }} />
-                      <Typography
-                        sx={{
-                          fontWeight: 600,
-                          color: "#E74545",
-                          fontSize: 19,
-                        }}
-                      >
-                        {item.percentage}%
-                      </Typography>
-                    </>
-                  ) : (
-                    <>
-                      <NorthIcon sx={{ color: "#23C581" }} />
-                      <Typography
-                        sx={{
-                          fontWeight: 600,
-                          color: "#23C581",
-                          fontSize: 19,
-                        }}
-                      >
-                        +{item.percentage}%
-                      </Typography>
-                    </>
-                  )}
-                  <Typography
-                    sx={{ fontWeight: 400, color: "#707B81", fontSize: 19 }}
-                  >
-                    on this week
-                  </Typography>
-                </div>
-                <img src="/Icons/editIconSuccess.svg" alt="Edit Icon" />
-              </div>
-            </div>
-          </div>
-        ))}
+
+      <div className="w-full my-6 flex-wrap lg:flex-nowrap flex gap-6 justify-center px-12 lg:px-80">
+        <div
+          className="w-full flex flex-col justify-center items-start rounded-2xl cursor-pointer p-1 lg:p-5 bg-[#151322]"
+          style={{ boxShadow: "8px 4px 37px 0px #7676764D" }}
+        >
+          <h2 className="font-[Poppins] text-[48px] font-bold text-[#5B1CD4]">
+            Level 1
+          </h2>
+          <h3 className="font-[Poppins] text-[40px] font-medium">10%</h3>
+          <p className="flex font-[Poppins] text-[16px] font-medium text-[#646464]">
+            <span className="flex gap-1 mr-1 text-[#5B1CD4] font-bold">
+              <img src={Fish} alt="icon" />
+              1-10
+            </span>{" "}
+            Referrals
+          </p>
+          <p className="flex font-[Poppins] text-[16px] font-medium text-[#646464]">
+            <span className="flex gap-1 mr-1 text-[#5B1CD4] font-bold">
+              <img src={Fish} alt="icon" />
+              10%
+            </span>
+            Commission
+          </p>
+        </div>
+        <div
+          className="w-full flex flex-col justify-center items-start rounded-2xl cursor-pointer p-1 lg:p-5 bg-[#151322]"
+          style={{ boxShadow: "8px 4px 37px 0px #7676764D" }}
+        >
+          <h2 className="font-[Poppins] text-[48px] font-bold text-[#5B1CD4]">
+            Level 2
+          </h2>
+          <h3 className="font-[Poppins] text-[40px] font-medium">20%</h3>
+          <p className="flex font-[Poppins] text-[16px] font-medium text-[#646464]">
+            <span className="flex gap-1 mr-1 text-[#5B1CD4] font-bold">
+              <img src={Fish} alt="icon" />
+              Unlimited
+            </span>{" "}
+            Client Referrals
+          </p>
+          <p className="flex font-[Poppins] text-[16px] font-medium text-[#646464]">
+            <span className="flex gap-1 mr-1 text-[#5B1CD4] font-bold">
+              <img src={Fish} alt="icon" />
+              20%
+            </span>
+            Commission
+          </p>
+        </div>
+      </div>
+
+      <section className="flex justify-center px-12 lg:px-32">
+        <div className="my-6 w-full flex flex-col justify-center items-start rounded-2xl cursor-pointer p-1 lg:p-5 bg-[#151322] ">
+          <h3 className="font-[Montserrat] text-[26px] font-medium capitalize">
+            the 10% on both levels is paid form two revenue streams:
+          </h3>
+          <p className="font-[Montserrat] text-[16px] font-medium text-[#646464]">
+            1 - From the 20% we keep formt he 30% per month which is 2% per
+            level (as out liquidity provider / broker we pay them 10% of the 30%
+            we bill)
+          </p>
+          <p className="font-[Montserrat] text-[16px] font-medium text-[#646464]">
+            2 - From the 5% of the 15% purchase price paid up front
+          </p>
+          <p className="font-[Montserrat] text-[16px] font-medium text-[#646464]">
+            10% of 5% = 0.5% on both levels
+          </p>
+        </div>
+      </section>
+
+      <Typography sx={{ ...stylesMui.pageTitle, fontSize: "45px" }}>
+        All The People On <br />{" "}
+        <span className="text-[#5B1CD4]">Level 1 And Level 2</span>
+      </Typography>
+
+      <div className="px-6 lg:px-40">
+        <Typography sx={stylesMui.subHeroText}>
+          Affiliate commission are generate the 15th fo the month for the
+          previous months activities. For the monthly performance fees we change
+          that on the first of each month for the previous months trading
+          profits.
+        </Typography>
+      </div>
+
+      <div className="my-6 flex flex-wrap justify-center gap-4 lg:gap-6">
+        <div>
+          <h2 className="font-[Poppins] font-semibold text-[45px]">Level 1</h2>
+          <LeaderboardComponent isAffiliates={true} />
+        </div>
+        <div>
+          <h2 className="font-[Poppins] font-semibold text-[45px]">Level 2</h2>
+          <LeaderboardComponent isAffiliates={true} />
+        </div>
+      </div>
+
+      <div className="flex justify-center mt-6">
         <FinancialJourney />
       </div>
     </>
