@@ -15,15 +15,15 @@ const PrivacyPageComponent = () => {
             Privacy & Policy
           </Typography>
           <Typography sx={stylesMui.policyText}>
-            Thank you for choosing to be part of our community at Syndicate
-            Funded (“Company,” “we,” “us,” or “our”). We are committed to
+            Thank you for choosing to be part of our community at Fully Managed
+            Funded Funded (“Company,” “we,” “us,” or “our”). We are committed to
             protecting your personal information and your right to privacy. If
             you have any questions or concerns about this privacy notice or our
             practices with regard to your personal information, please contact
-            us at support@syndicatefunded.com This privacy notice describes how
-            we might use your information if you: <br />
+            us at support@fullymanagedfunded.com This privacy notice describes
+            how we might use your information if you: <br />
             <br />
-            Visit our website at http://www.syndicatefunded.com <br />
+            Visit our website at http://www.fullymanagedfunded.com <br />
             <br />
             Engage with us in other related ways ― including any sales,
             marketing, or events <br />
@@ -138,7 +138,7 @@ const PrivacyPageComponent = () => {
             contain personal information. Prior to posting a testimonial, we
             will obtain your consent to use your name and the content of the
             testimonial. If you wish to update, or delete your testimonial,
-            please contact us at support@syndicatefunded.com and be sure to
+            please contact us at support@fullymanagedfunded.com and be sure to
             include your name, testimonial location, and contact information.
             Request feedback. We may use your information to request feedback
             and to contact you about your use of our Website. To enable
@@ -293,7 +293,7 @@ const PrivacyPageComponent = () => {
             we will deactivate the account and take reasonable measures to
             promptly delete such data from our records. If you become aware of
             any data we may have collected from children under age 18, please
-            contact us at support@syndicatefunded.com WHAT ARE YOUR PRIVACY
+            contact us at support@fullymanagedfunded.com WHAT ARE YOUR PRIVACY
             RIGHTS? In Short: In some regions, such as the European Economic
             Area (EEA) and United Kingdom (UK), you have rights that allow you
             greater access to and control over your personal information. You
@@ -322,8 +322,8 @@ const PrivacyPageComponent = () => {
             details for the data protection authorities are available here:
             https://www.edoeb.admin.ch/edoeb/en/ home.html. If you have
             questions or comments about your privacy rights, you may email us at
-            support@syndicatefunded.com Account Information If you would at any
-            time like to review or change the information in your account or
+            support@fullymanagedfunded.com Account Information If you would at
+            any time like to review or change the information in your account or
             terminate your account, you can: Contact us using the contact
             information provided. Upon your request to terminate your account,
             we will deactivate or delete your account and information from our
@@ -382,8 +382,8 @@ const PrivacyPageComponent = () => {
             privacy notice frequently to be informed of how we are protecting
             your information. HOW CAN YOU CONTACT US ABOUT THIS NOTICE? If you
             have questions or comments about this notice, you may email us at
-            support@syndicatefunded.com or by post to: Syndicate Funded LLC
-            (INSERT COMPANY ADDRESS WHERE MAIL CAN BE PICKED UP) HOW CAN YOU
+            support@fullymanagedfunded.com or by post to: Fully Managed Funded
+            LLC (INSERT COMPANY ADDRESS WHERE MAIL CAN BE PICKED UP) HOW CAN YOU
             REVIEW, UPDATE, OR DELETE THE DATA WE COLLECT FROM YOU? Based on the
             applicable laws of your country, you may have the right to request
             access to the personal information we collect from you, change that

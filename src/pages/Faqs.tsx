@@ -21,7 +21,7 @@ const Faqs = () => {
           </div>
           <Typography sx={stylesMui.subHeroText}>
             Still you have any questions? Contact our Team via
-            support@syndicatefunded.com
+            support@fullymanagedfunded.com
           </Typography>
           <div className="w-full px-4 md:px-20 xl:px-[13.06rem] mt-8 md:mt-14 xl:mt-[4.12rem]">
             <FaqsComponent />

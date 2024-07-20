@@ -16,4 +16,12 @@ export const stylesMui = {
     fontWeight: 500,
     lineHeight: "normal",
   },
+  pageTitle: {
+    textAlign: "center",
+    fontFamily: "Poppins",
+    fontSize: { xs: "2rem", lg: "3rem", xl: "4rem" },
+    fontWeight: 600,
+    lineHeight: "normal",
+    textTransform: "capitalize",
+  },
 };

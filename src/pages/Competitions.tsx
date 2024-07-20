@@ -11,7 +11,7 @@ const Competitions = () => {
     <>
       <ThemeLayoutWrapper>
         <section className="w-full flex flex-col items-center py-14 lg:pt-[6.25rem] lg:pb-[8.75rem]">
-          <Typography sx={stylesMui.headingPage}>Competitions</Typography>
+          <Typography sx={stylesMui.headingPage}>Special Offers</Typography>
           <Typography sx={stylesMui.subHeroText}>
             Here you can see Past and Current competitions and the winners.
           </Typography>

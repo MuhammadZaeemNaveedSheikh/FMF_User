@@ -1,23 +1,15 @@
 import { useState } from "react";
-import { NavLink, useLocation } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
-import { useContext, useMemo } from "react";
 import {
-  Switch,
-  Tooltip,
   useTheme,
   Menu,
   MenuItem as MuiMenuItem,
   Typography,
 } from "@mui/material";
-import LightModeIcon from "@mui/icons-material/LightMode";
-import DarkModeIcon from "@mui/icons-material/DarkMode";
-
-import { ThemeContext } from "../../theme/ThemeContextProvider";
 
 import RegisterButton from "./RegisterButton";
 import { webHeaderMenuItems } from "../../constants/webHeaderMenuItems";
-import LogoHeaderWeb from "../../assets/icons/LogoHeaderWeb";
 import HamburgerIcon from "../../assets/icons/HamburgerIcon";
 import HeaderEllipse from "../../assets/images/HeaderEllipse.png";
 import HeaderStarsLeft from "../../assets/images/HeaderStarsLeft.svg";
@@ -27,20 +19,10 @@ const WebMobileHeader = () => {
   const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null);
 
   const theme = useTheme();
-  const { switchColorMode } = useContext(ThemeContext);
-  const location = useLocation();
-
-  const activateName = useMemo(
-    () => (theme.palette.mode === "dark" ? "Light" : "Dark"),
-    [theme]
-  );
 
   const isNavLinkActive = (path: string) => {
     return location.pathname === path;
   };
-
-  const logoFill = theme.palette.mode === "light" ? "black" : "white";
-  const isLight = theme.palette.mode === "light";
 
   return (
     <>
@@ -53,7 +35,7 @@ const WebMobileHeader = () => {
           id="logo"
         >
           <NavLink to="/web/" className="logo-link">
-            <LogoHeaderWeb fill={logoFill} />
+            <img src="/fmfFavIcon.svg" alt="logo" />
           </NavLink>
         </div>
 
@@ -100,7 +82,7 @@ const WebMobileHeader = () => {
               </NavLink>
             </MuiMenuItem>
           ))}
-          <MuiMenuItem>
+          {/* <MuiMenuItem>
             <Tooltip title={`Activate ${activateName} Mode`}>
               <div className="flex items-center">
                 <Switch
@@ -119,7 +101,7 @@ const WebMobileHeader = () => {
                 />
               </div>
             </Tooltip>
-          </MuiMenuItem>
+          </MuiMenuItem> */}
         </Menu>
       </div>
     </>

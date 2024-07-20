@@ -15,7 +15,7 @@ export const AuthContext = createContext<AuthContextValue | undefined>(
 );
 
 export const AuthProvider: React.FC<AuthContextProps> = ({ children }) => {
-  const [isLoggedIn, setLoggedIn] = useState<boolean>(true);
+  const [isLoggedIn, setLoggedIn] = useState<boolean>(false);
 
   const login = () => {
     console.log("Logging in...");

@@ -188,7 +188,7 @@ const AuthLogin = () => {
               <Button
                 onClick={() => {
                   login();
-                  navigate("/");
+                  navigate("/web");
                 }}
                 sx={stylesMui.buttonAuth}
                 type="submit"

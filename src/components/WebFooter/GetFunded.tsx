@@ -14,7 +14,7 @@ const GetFunded = () => {
     >
       <Typography sx={{ ...stylesMui.footerTitle, mb: "1.5rem" }}>
         Get Funded Up to <br />
-        $200,000
+        $10,000,000
       </Typography>
       <Typography sx={{ ...stylesMui.footerSubtitle, mb: "2.5rem" }}>
         $0 Commissions on all trades at all time!

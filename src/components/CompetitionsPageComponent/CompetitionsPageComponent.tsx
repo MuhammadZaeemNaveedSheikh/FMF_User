@@ -9,7 +9,7 @@ const CompetitionsPageComponent = () => {
     <section className="w-full">
       <div className="mt-8 md:mt-14 xl:mt-[5.38rem]" id="in-active">
         <div className="ml-4 md:ml-[4rem] xl:ml-[7rem]" id="challenges">
-          <Typography sx={stylesMui.challenges}>Competitions</Typography>
+          <Typography sx={stylesMui.challenges}>Special Offers</Typography>
           <Typography sx={stylesMui.challengesSubtext}>
             Set up the profit targets & draw-down limits.
           </Typography>

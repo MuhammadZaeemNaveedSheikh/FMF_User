@@ -1,6 +1,12 @@
 import PeopleCard from "./PeopleCard";
 
-const LeaderboardComponent = () => {
+interface LeaderboardComponentProps {
+  isAffiliates?: boolean;
+}
+
+const LeaderboardComponent: React.FC<LeaderboardComponentProps> = ({
+  isAffiliates = false,
+}) => {
   const dummyData = [
     {
       index: "1",
@@ -75,18 +81,21 @@ const LeaderboardComponent = () => {
   ];
 
   return (
-    <div className="w-full flex flex-col gap-3">
-      {dummyData.map((data, index) => (
-        <PeopleCard
-          key={index}
-          index={data.index}
-          avatarImg={data.avatarImg}
-          name={data.name}
-          number={data.number}
-          amount={data.amount}
-        />
-      ))}
-    </div>
+    <>
+      <div className="w-full flex flex-col gap-3">
+        {dummyData.map((data, index) => (
+          <PeopleCard
+            key={index}
+            index={data.index}
+            avatarImg={data.avatarImg}
+            name={data.name}
+            number={data.number}
+            amount={data.amount}
+            isAffiliates={isAffiliates}
+          />
+        ))}
+      </div>
+    </>
   );
 };
 

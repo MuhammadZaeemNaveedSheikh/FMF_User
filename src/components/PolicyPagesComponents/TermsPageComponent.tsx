@@ -12,609 +12,624 @@ const TermsPageComponent = () => {
       >
         <div className="w-full md:w-[70%]" id="content">
           <Typography sx={{ ...stylesMui.policyHeadings, mb: "1rem" }}>
-            AGREEMENT TO TERMS
+            FULLY MANAGED FUNDED & COYLE CAPITAL TRUST S.A. TERMS AND CONDITIONS
+            FOR COPY TRADING SERVICE
           </Typography>
           <Typography sx={stylesMui.policyText}>
-            These Terms of Use constitute a legally binding agreement made
-            between you, whether personally or on behalf of an entity (“you”)
-            and Syndicate Funded LLC (“Company,” “we,” “us,” or “our”),
-            concerning your access to and use of the
-            http://www.syndicatefunded.com website as well as any other media
-            form, media channel, mobile website or mobile application related,
-            linked, or otherwise connected thereto (collectively, the “Site”).
-            We are registered in Dubai and have our registered office at (INSERT
-            COMPANY ADDRESS HERE). You agree that by accessing the Site, you
-            have read, understood, and agreed to be bound by all of these Terms
-            of Use. IF YOU DO NOT AGREE WITH ALL OF THESE TERMS OF USE, THEN YOU
-            ARE EXPRESSLY PROHIBITED FROM USING THE SITE AND YOU MUST
-            DISCONTINUE USE IMMEDIATELY. Supplemental terms and conditions or
-            documents that may be posted on the Site from time to time are
-            hereby expressly incorporated herein by reference. We reserve the
-            right, in our sole discretion, to make changes or modifications to
-            these Terms of Use from time to time. We will alert you about any
-            changes by updating the “Last updated” date of these Terms of Use,
-            and you waive any right to receive specific notice of each such
-            change. Please ensure that you check the applicable Terms every time
-            you use our Site so that you understand which Terms apply. You will
-            be subject to, and will be deemed to have been made aware of and to
-            have accepted, the changes in any revised Terms of Use by your
-            continued use of the Site after the date such revised Terms of Use
-            are posted. The information provided on the site is not intended for
-            distribution to or use by any person or entity in any jurisdiction
-            or country where such distribution or use would be contrary to law
-            or regulation or which would subject us to any registration
-            requirement within such jurisdiction or country. Accordingly, those
-            persons who choose to access the Site from other locations do so on
-            their own initiative and are solely responsible for compliance with
-            local laws, if and to the extent local laws are applicable. <br />
+            1. DESCRIPTION OF COPY TRADING SERVICES By subscribing to Copy
+            Trading Service the User may assess selected trader(s) performance,
+            follow the selected trader’s activities, copy the selected trader’s
+            trading strategies, and view selected trader’s history, rankings,
+            risk profile and other information relating to the trader’s
+            performance. (“Copy Trading Service”).
             <br />
-            Trading Terms and conditions 1. Trading Rules and Guidelines 1.1 The
-            trading account and all funds remain the property of Syndicatefunded
-            & our Liquidity Provider, hereby referred to as ‘The Account Owner’.
-            Traders who are managing live simulated accounts hereby referred to
-            as ‘Traders’ are not liable for any losses incurred during their
-            authorized and acknowledged trading activity on the Account Owners’
-            funded accounts. Traders have no title, ownership, investment or
-            rights to the funds in the trading account. Traders may receive
-            account credentials, trade execution rights and statements for the
-            account on behalf of the account owner, yet are prohibited from any
-            direct contact with, or instruction to the broker or any other
-            intermediary. <br />
             <br />
-            Any such direct and non Syndicate Funded sanctioned contact with any
-            Syndicate Funded broker or intermediary will result in instant
-            termination and trading account closure. 1.2 Live funded traders who
-            successfully pass Phase 1 & 2 of the evaluation will be entitled to
-            the following Virtual Performance Fee made on the account: (80%)
-            Virtual Profit withdrawals on funded accounts are available
-            bi-weekly. There is no minimum withdrawal requirement. Please submit
-            a withdrawal request in the form of an invoice addressed to Alpha
-            Capital Group limited on the 14th & 28th of each month. All
-            withdrawals will be processed and paid within 3 business days. All
-            trades must be closed on the account at the time of making a
-            withdrawal request, trading can resume once the withdrawal amount
-            has been withdrawn from the trading Virtual account balance. Please
-            submit all withdrawal requests to support@syndicatefunded.com 1.3
-            Virtual Profit withdrawals will be sent via bank wire transfer, or
-            cryptocurrency. We have partnered with a deliverable FX institution
-            meaning our clients can benefit from 0.35% exchange rate fees when
-            receiving Virtual profit withdrawals in your domestic currencies.
-            1.4 Each individual trader is limited to 1 active evaluation account
-            at any one time. With a max capital allocation of $200,000 1.5 , If
-            a trader reaches the time limit but hasn’t reached the required
-            Virtual profit target and all other trading rules have been met. If
-            the account is in profit and no other rules have been breached, you
-            will automatically qualify. 1.6 To be eligible for capital growth,
-            the trader is required to reach a 6% Virtual profit target for Phase
-            1 and 8% Virtual profit target for Phase 2. Max capital growth is
-            $500,000 1.7 If the trader has met all the required trading
-            objectives within the set time frame and hasn’t breached any rules,
-            then the trader will pass the evaluation phase and move onto Phase 2
-            or a funded account. 1.8 Upon successful completion of the
-            evaluation phase(s), a trader’s agreement between Syndicate Funded
-            LLC and the trader will be signed prior to receiving the live
-            simulated account. 1.9 Traders are not allow copy trading from other
-            groups. We don’t not allow traders to copy other traders’ trades
-            either. No Group copy trading is allowed. The only copy trading
-            allowed is that from your own external account to your account with
-            Syndicate Funded. Any traders found copy trading other traders’
-            trades will be subject to review and potential breach of agreement,
-            meaning you will lose the funded account. 1.10 Tradeable Assets:
-            FX/Indices/Commodities 1.11 ******Martingale EAs & Strategies are
-            not allowed. Syndicate Funded consider Martingale strategies to be
-            the following: Opening a position in the same direction whilst the
-            first position opened is in drawdown. If the consecutive position is
-            opened at an exponent more than 1.1x we consider this to be
-            martingale strategy. If the trader breaches this rule, it will
-            result in a fail on the evaluation. 1.12 Hedging and stacking trades
-            is allowed Hedging Is classified as the following: having trades
-            running in both directions on the same instrument. Stacking is
-            classified as the following: opening 3 or more trades on the same
-            instrument at the same time at the same price. If the trader
-            breaches this rule, it will result in a fail on the evaluation. 1.13
-            Alpha Pro Plan Phase 1 & Phase 2 consist of no minimum trading days.
-            Traders must continue to trade until you meet the minimum trading
-            days requirement. We understand that if a trader has reached the
-            Virtual profit target they may not want to risk taking a loss and
-            having to regain Virtual profit require to pass. 1.14 There are no
-            Virtual profit targets that need to be met before requesting for a
-            withdrawal on a funded account. once the trader has successfully
-            achieved a funded account with Alpha Capital Group,
-            ***********************there are no Virtual profit requirements or
-            pressure to make X amount each month. 1.15 The trader is required to
-            maintain the same level of risk on a funded account in accordance
-            with the funding plan, a breach of the risk will result in account
-            closure and termination of traders’ agreement. 1.16 Position Size
-            limits. There is no max position size exposure during the
-            evaluation. Funded account max position size exposure $50k = Max
-            exposure 20 lots. $100k = Max exposure 40 lots. $200k = Max exposure
-            80 lots The Site is intended for users who are at least 18 years
-            old. Persons under the age of 18 are not permitted to use or
-            register for the Site. <br />
+            2. AGREEMENT AND ACCEPTANCE OF TERMS By accessing the Copy Trading
+            Service from{" "}
+            <a href="https://fullymanagedfunded.com">
+              https://fullymanagedfunded.com
+            </a>{" "}
+            (the “Platform”) via desktop or mobile application, you acknowledge
+            and agree that you have reviewed this Disclaimer, in conjunction
+            with both the Platforms’ Terms of Services relating the Copy Trading
+            Service (https:// fullymanagedfunded/copytrading.html) and Risk
+            Disclaimer relating to the Copy Trading Service (https://
+            fullymanagedfunded/copytrading.html). The Copy Trading Service
+            subscription currently is set for 30-day period with auto renewal
+            function which can be turned off before the expiration of current
+            term in order to cancel the next subscription.
             <br />
-            INTELLECTUAL PROPERTY RIGHTS <br />
             <br />
-            Unless otherwise indicated, the Site is our proprietary property and
-            all source code, databases, functionality, software, website
-            designs, audio, video, text, photographs, and graphics on the Site
-            (collectively, the “Content”) and the trademarks, service marks, and
-            logos contained therein (the “Marks”) are owned or controlled by us
-            or licensed to us, and are protected by copyright and trademark laws
-            and various other intellectual property rights and unfair
-            competition laws of the United States, international copyright laws,
-            and international conventions. The Content and the Marks are
-            provided on the Site “AS IS” for your information and personal use
-            only. Except as expressly provided in these Terms of Use, no part of
-            the Site and no Content or Marks may be copied, reproduced,
-            aggregated, republished, uploaded, posted, publicly displayed,
-            encoded, translated, transmitted, distributed, sold, licensed, or
-            otherwise exploited for any commercial purpose whatsoever, without
-            our express prior written permission. Provided that you are eligible
-            to use the Site, you are granted a limited license to access and use
-            the Site and to download or print a copy of any portion of the
-            Content to which you have properly gained access solely for your
-            personal, non- commercial use. We reserve all rights not expressly
-            granted to you in and to the Site, the Content and the Marks. USER
-            REPRESENTATIONS By using the Site, you represent and warrant that:
-            (1) all registration information you submit will be true, accurate,
-            current, and complete; (2) you will maintain the accuracy of such
-            information and promptly update such registration information as
-            necessary; (3) you have the legal capacity and you agree to comply
-            with these Terms of Use; (4) you are not a minor in the jurisdiction
-            in which you reside; (5) you will not access the Site through
-            automated or non-human means, whether through a bot, script, or
-            otherwise; (6) you will not use the Site for any illegal or
-            unauthorized purpose; and (7) your use of the Site will not violate
-            any applicable law or regulation. If you provide any information
-            that is untrue, inaccurate, not current, or incomplete, we have the
-            right to suspend or terminate your account and refuse any and all
-            current or future use of the Site (or any portion thereof). USER
-            REGISTRATION You may be required to register with the Site. You
-            agree to keep your password confidential and will be responsible for
-            all use of your account and password. We reserve the right to
-            remove, reclaim, or change a username you select if we determine, in
-            our sole discretion, that such username is inappropriate, obscene,
-            or otherwise objectionable. PROHIBITED ACTIVITIES You may not access
-            or use the Site for any purpose other than that for which we make
-            the Site available. The Site may not be used in connection with any
-            commercial endeavours except those that are specifically endorsed or
-            approved by us. As a user of the Site, you agree not to: •
-            Systematically retrieve data or other content from the Site to
-            create or compile, directly or indirectly, a collection,
-            compilation, database, or directory without written permission from
-            us. • Trick, defraud, or mislead us and other users, especially in
-            any attempt to learn sensitive account information such as user
-            passwords. • Circumvent, disable, or otherwise interfere with
-            security-related features of the Site, including features that
-            prevent or restrict the use or copying of any Content or enforce
-            limitations on the use of the Site and/or the Content contained
-            therein. • Use any information obtained from the Site in order to
-            harass, abuse, or harm another person. • Make improper use of our
-            support services or submit false reports of abuse or misconduct. •
-            Use the Site in a manner inconsistent with any applicable laws or
-            regulations. • Engage in unauthorized framing of or linking to the
-            Site. • Upload or transmit (or attempt to upload or to transmit)
-            viruses, Trojan horses, or other material, including excessive use
-            of capital letters and spamming (continuous posting of repetitive
-            text), that interferes with any party’s uninterrupted use and
-            enjoyment of the Site or modifies, impairs, disrupts, alters, or
-            interferes with the use, features, functions, operation, or
-            maintenance of the Site. • Engage in any automated use of the
-            system, such as using scripts to send comments or messages, or using
-            any data mining, robots, or similar data gathering and extraction
-            tools. • Delete the copyright or other proprietary rights notice
-            from any Content. • Attempt to impersonate another user or person or
-            use the username of another user. • Upload or transmit (or attempt
-            to upload or to transmit) any material that acts as a passive or
-            active information collection or transmission mechanism, including
-            without limitation, clear graphics interchange formats (“gifs”), 1×1
-            pixels, web bugs, cookies, or other similar devices (sometimes
-            referred to as “spyware” or “passive collection mechanisms” or
-            “pcms”). • Interfere with, disrupt, or create an undue burden on the
-            Site or the networks or services connected to the Site. • Harass,
-            annoy, intimidate, or threaten any of our employees or agents
-            engaged in providing any portion of the Site to you. • Attempt to
-            bypass any measures of the Site designed to prevent or restrict
-            access to the Site, or any portion of the Site. • Copy or adapt the
-            Site’s software, including but not limited to Flash, PHP, HTML,
-            JavaScript, or other code. • Except as permitted by applicable law,
-            decipher, decompile, disassemble, or reverse engineer any of the
-            software comprising or in any way making up a part of the Site. •
-            Except as may be the result of standard search engine or Internet
-            browser usage, use, launch, develop, or distribute any automated
-            system, including without limitation, any spider, robot, cheat
-            utility, scraper, or offline reader that accesses the Site, or using
-            or launching any unauthorized script or other software. • Use a
-            buying agent or purchasing agent to make purchases on the Site. •
-            Make any unauthorized use of the Site, including collecting
-            usernames and/or email addresses of users by electronic or other
-            means for the purpose of sending unsolicited email, or creating user
-            accounts by automated means or under false pretences. • Use the Site
-            as part of any effort to compete with us or otherwise use the Site
-            and/or the Content for any revenue-generating endeavour or
-            commercial enterprise. • Use the Site to advertise or offer to sell
-            goods and services. <br />
+            3. PLEASE READ THIS DISCLAIMER CAREFULLY and do not access or use
+            the Copy Trading Services if you disagree with any term in this
+            Disclaimer, Terms of Services or Risk Disclaimer. You acknowledge
+            and hereby agree that by clicking “I agree” you will be using the
+            Copy Trading Service at your own risk and are authorizing Trading
+            Master Global LTD, Coyle Capital Trust S.A and Fully Managed Funded
+            to execute, on your behalf, the strategy you choose to copy. You
+            further agree that the Platform will not be{" "}
+            <strong>liable for any losses</strong> that you may sustain as a
+            result of your use of the Copy Trading Services.
             <br />
-            USER GENERATED CONTRIBUTIONS
             <br />
-            <br /> The Site does not offer users to submit or post content. We
-            may provide you with the opportunity to create, submit, post,
-            display, transmit, perform, publish, distribute, or broadcast
-            content and materials to us or on the Site, including but not
-            limited to text, writings, video, audio, photographs, graphics,
-            comments, suggestions, or personal information or other material
-            (collectively, “Contributions”). Contributions may be viewable by
-            other users of the Site and through third-party websites. As such,
-            any Contributions you transmit may be treated in accordance with the
-            Site Privacy Policy. When you create or make available any
-            Contributions, you thereby represent and warrant that: • The
-            creation, distribution, transmission, public display, or
-            performance, and the accessing, downloading, or copying of your
-            Contributions do not and will not infringe the proprietary rights,
-            including but not limited to the copyright, patent, trademark, trade
-            secret, or moral rights of any third party. • You are the creator
-            and owner of or have the necessary licenses, rights, consents,
-            releases, and permissions to use and to authorize us, the Site, and
-            other users of the Site to use your Contributions in any manner
-            contemplated by the Site and these Terms of Use. • You have the
-            written consent, release, and/or permission of each and every
-            identifiable individual person in your Contributions to use the name
-            or likeness of each and every such identifiable individual person to
-            enable inclusion and use of your Contributions in any manner
-            contemplated by the Site and these Terms of Use. • Your
-            Contributions are not false, inaccurate, or misleading. • Your
-            Contributions are not unsolicited or unauthorized advertising,
-            promotional materials, pyramid schemes, chain letters, spam, mass
-            mailings, or other forms of solicitation. • Your Contributions are
-            not obscene, lewd, lascivious, filthy, violent, harassing,
-            libellous, slanderous, or otherwise objectionable (as determined by
-            us). • Your Contributions do not ridicule, mock, disparage,
-            intimidate, or abuse anyone. • Your Contributions are not used to
-            harass or threaten (in the legal sense of those terms) any other
-            person and to promote violence against a specific person or class of
-            people. • Your Contributions do not violate any applicable law,
-            regulation, or rule. • Your Contributions do not violate the privacy
-            or publicity rights of any third party. • Your Contributions do not
-            violate any applicable law concerning child pornography, or
-            otherwise intended to protect the health or well-being of minors. •
-            Your Contributions do not include any offensive comments that are
-            connected to race, national origin, gender, sexual preference, or
-            physical handicap. • Your Contributions do not otherwise violate, or
-            link to material that violates, any provision of these Terms of Use,
-            or any applicable law or regulation. • Any use of the Site in
-            violation of the foregoing violates these Terms of Use and may
-            result in, among other things, termination or suspension of your
-            rights to use the Site. <br />
+            4. COPY TRADING SERVICE DISCLAIMER The Copy Trading Service allows
+            the User to follow a selected trader’s activities, copy the selected
+            trader’s trading strategies, and view selected trader’s history,
+            rankings, risk profile and other information relating to the
+            trader’s performance. You understand and acknowledge that should you
+            subscribe to the Copy Trading Service, you are solely responsible
+            for your own investment research and financial decisions and
+            determining whether any trade or strategy is appropriate or suitable
+            for you based on your own objectives and personal and financial
+            situation. Use of the Copy Trading Service should not be construed
+            as providing financial or investment advice. By subscribing to the
+            Copy Trading Service, you acknowledge that you understand all
+            aspects of the risk associated with the copied account and the
+            copied trader’s trading objectives. You are solely responsible for
+            reliance on any advice or information from third-party providers.
+            You acknowledge and agree that your use of the Copy Trading Service
+            is highly risky and that you could sustain significant losses.
+            Additionally, you agree to using the Copy Trading Services at your
+            own risk and that the Platform will not be liable to you for any
+            losses that you may sustain as a result of your use of the Copy
+            Trading Service. By checking the box “Subscribe”, you authorize the
+            Platform to execute any and all trades and/or positions undertaken
+            by the trader, account, portfolio and/or strategy that you choose to
+            follow and copy using the Copy Trading Service. All trades are done
+            automatically once initiated by you. You understand and agree that
+            the automated trading execution pursuant to Copy Trading Service
+            means trades are opened and closed in your account without your
+            manual intervention and that all activity relating to the Copy
+            Trading Service is subject to the provisions of the Terms of
+            Services.
             <br />
-            CONTRIBUTION LICENSE <br />
             <br />
-            You agree that we may access, store, process, and use any
-            information and personal data that you provide following the terms
-            of the Privacy Policy and your choices (including settings). By
-            submitting suggestions or other feedback regarding the Site, you
-            agree that we can use and share such feedback for any purpose
-            without compensation to you. We do not assert any ownership over
-            your Contributions. You retain full ownership of all of your
-            Contributions and any intellectual property rights or other
-            proprietary rights associated with your Contributions. We are not
-            liable for any statements or representations in your Contributions
-            provided by you in any area on the Site. You are solely responsible
-            for your Contributions to the Site and you expressly agree to
-            exonerate us from any and all responsibility and to refrain from any
-            legal action against us regarding your Contributions. SUBMISSIONS
-            You acknowledge and agree that any questions, comments, suggestions,
-            ideas, feedback, or other information regarding the Site
-            (“Submissions”) provided by you to us are non-confidential and shall
-            become our sole property. We shall own exclusive rights, including
-            all intellectual property rights, and shall be entitled to the
-            unrestricted use and dissemination of these Submissions for any
-            lawful purpose, commercial or otherwise, without acknowledgment or
-            compensation to you. You hereby waive all moral rights to any such
-            Submissions, and you hereby warrant that any such Submissions are
-            original with you or that you have the right to submit such
-            Submissions. You agree there shall be no recourse against us for any
-            alleged or actual infringement or misappropriation of any
-            proprietary right in your Submissions. THIRD-PARTY WEBSITE AND
-            CONTENT he Site may contain (or you may be sent via the Site) links
-            to other websites (“Third-Party Websites”) as well as articles,
-            photographs, text, graphics, pictures, designs, music, sound, video,
-            information, applications, software, and other content or items
-            belonging to or originating from third parties (“Third-Party
-            Content”). Such Third-Party Websites and Third-Party Content are not
-            investigated, monitored, or checked for accuracy, appropriateness,
-            or completeness by us, and we are not responsible for any
-            Third-Party Websites accessed through the Site or any Third-Party
-            Content posted on, available through, or installed from the Site,
-            including the content, accuracy, offensiveness, opinions,
-            reliability, privacy practices, or other policies of or contained in
-            the Third-Party Websites or the Third-Party Content. Inclusion of,
-            linking to, or permitting the use or installation of any Third-Party
-            Websites or any Third-Party Content does not imply approval or
-            endorsement thereof by us. If you decide to leave the Site and
-            access the Third-Party Websites or to use or install any Third-Party
-            Content, you do so at your own risk, and you should be aware these
-            Terms of Use no longer govern. You should review the applicable
-            terms and policies, including privacy and data gathering practices,
-            of any website to which you navigate from the Site or relating to
-            any applications you use or install from the Site. Any purchases you
-            make through Third-Party Websites will be through other websites and
-            from other companies, and we take no responsibility whatsoever in
-            relation to such purchases which are exclusively between you and the
-            applicable third party. You agree and acknowledge that we do not
-            endorse the products or services offered on Third-Party Websites and
-            you shall hold us harmless from any harm caused by your purchase of
-            such products or services. Additionally, you shall hold us harmless
-            from any losses sustained by you or harm caused to you relating to
-            or resulting in any way from any Third-Party Content or any contact
-            with Third-Party Websites. <br />
+            5.{" "}
+            <strong>
+              “You agree and understand that we do not guarantee that any Order
+              you place will be filled.”
+            </strong>{" "}
+            And “All orders placed are You agree and understand that Orders may
+            be subject to, and we shall have no liability for, delays and/or
+            other conditions affecting transmission or execution of Orders over
+            which we have no control, including, but not limited to, system
+            processing delay or failure, mechanical or electronic failure, or
+            market conditions in terms of liquidity and volatility. We are in no
+            way responsible for ensuring the execution of orders at the price
+            indicated in an Order, if there are any such delays or other
+            conditions affecting transmission or execution.” You acknowledge and
+            agree that you are at all times, solely responsible for assessing,
+            selecting, and monitoring: (i) the suitability of the copied traders
+            / strategies; and (ii) the overall performance of the copied trader,
+            account, portfolio and/or strategy. You further acknowledge and
+            agree that if you place additional trades in your account or you
+            modify or cancel an order generated by the Copy Trading Service, you
+            may achieve a materially different result than the result achieved
+            by the trader that you copied. Should a copied trader cash-out and
+            withdraw, you may also generate a materially different result than
+            the trader, account, portfolio and/or strategy that you copied as it
+            may affect the Copy Trading Service proportions. You acknowledge and
+            agree that the Platform reserves the right to pause, to copy or stop
+            copying any trader, account, portfolio and/or strategy, at its sole
+            and absolute discretion.
             <br />
-            SITE MANAGEMENT
             <br />
-            <br /> We reserve the right, but not the obligation, to: (1) monitor
-            the Site for violations of these Terms of Use; (2) take appropriate
-            legal action against anyone who, in our sole discretion, violates
-            the law or these Terms of Use, including without limitation,
-            reporting such user to law enforcement authorities; (3) in our sole
-            discretion and without limitation, refuse, restrict access to, limit
-            the availability of, or disable (to the extent technologically
-            feasible) any of your Contributions or any portion thereof; (4) in
-            our sole discretion and without limitation, notice, or liability, to
-            remove from the Site or otherwise disable all files and content that
-            are excessive in size or are in any way burdensome to our systems;
-            and (5) otherwise manage the Site in a manner designed to protect
-            our rights and property and to facilitate the proper functioning of
-            the Site. PRIVACY POLICY We care about data privacy and security.
-            Please review our Privacy Policy: (LINK TO OUR PRIVACY POLICY PAGE)
-            By using the Site, you agree to be bound by our Privacy Policy,
-            which is incorporated into these Terms of Use. Please be advised the
-            Site is hosted in the (LIST COUNTRY WHERE WEBSITE IS HOSTED). If you
-            access the Site from any other region of the world with laws or
-            other requirements governing personal data collection, use, or
-            disclosure that differ from applicable laws in the (COUNTRY WHERE
-            WEBSITE IS HOSTED), then through your continued use of the Site, you
-            are transferring your data to Dubai, and you agree to have your data
-            transferred to and processed in Dubai. <br />
+            6.{" "}
+            <strong>
+              You acknowledge and agree to pay the required subscription fee
+              that is set by the Trader for the Copy Trading Service.
+            </strong>{" "}
+            The fee will be deducted from your account on the monthly basis for
+            subscription or as prescribed by the Master Trader Acount.
             <br />
-            TERM AND TERMINATION
             <br />
-            <br /> These Terms of Use shall remain in full force and effect
-            while you use the Site. WITHOUT LIMITING ANY OTHER PROVISION OF
-            THESE TERMS OF USE, WE RESERVE THE RIGHT TO, IN OUR SOLE DISCRETION
-            AND WITHOUT NOTICE OR LIABILITY, DENY ACCESS TO AND USE OF THE SITE
-            (INCLUDING BLOCKING CERTAIN IP ADDRESSES), TO ANY PERSON FOR ANY
-            REASON OR FOR NO REASON, INCLUDING WITHOUT LIMITATION FOR BREACH OF
-            ANY REPRESENTATION, WARRANTY, OR COVENANT CONTAINED IN THESE TERMS
-            OF USE OR OF ANY APPLICABLE LAW OR REGULATION. WE MAY TERMINATE YOUR
-            USE OR PARTICIPATION IN THE SITE OR DELETE YOUR ACCOUNT AND ANY
-            CONTENT OR INFORMATION THAT YOU POSTED AT ANY TIME, WITHOUT WARNING,
-            IN OUR SOLE DISCRETION. If we terminate or suspend your account for
-            any reason, you are prohibited from registering and creating a new
-            account under your name, a fake or borrowed name, or the name of any
-            third party, even if you may be acting on behalf of the third party.
-            In addition to terminating or suspending your account, we reserve
-            the right to take appropriate legal action, including without
-            limitation pursuing civil, criminal, and injunctive redress.
-            MODIFICATIONS AND INTERRUPTIONS We reserve the right to change,
-            modify, or remove the contents of the Site at any time or for any
-            reason at our sole discretion without notice. However, we have no
-            obligation to update any information on our Site. We also reserve
-            the right to modify or discontinue all or part of the Site without
-            notice at any time. We will not be liable to you or any third party
-            for any modification, price change, suspension, or discontinuance of
-            the Site. We cannot guarantee the Site will be available at all
-            times. We may experience hardware, software, or other problems or
-            need to perform maintenance related to the Site, resulting in
-            interruptions, delays, or errors. We reserve the right to change,
-            revise, update, suspend, discontinue, or otherwise modify the Site
-            at any time or for any reason without notice to you. You agree that
-            we have no liability whatsoever for any loss, damage, or
-            inconvenience caused by your inability to access or use the Site
-            during any downtime or discontinuance of the Site. Nothing in these
-            Terms of Use will be construed to obligate us to maintain and
-            support the Site or to supply any corrections, updates, or releases
-            in connection therewith. GOVERNING LAW Informal Negotiations To
-            expedite resolution and control the cost of any dispute,
-            controversy, or claim related to these Terms of Use (each “Dispute”
-            and collectively, the “Disputes”) brought by either you or us
-            (individually, a “Party” and collectively, the “Parties”), the
-            Parties agree to first attempt to negotiate any Dispute (except
-            those Disputes expressly provided below) informally for at least
-            sixty (60) days before initiating arbitration. Such informal
-            negotiations commence upon written notice from one Party to the
-            other Party. Binding Arbitration Any dispute arising from the
-            relationships between the Parties to this contract shall be
-            determined by one arbitrator who will be chosen in accordance (with
-            the Arbitration and Internal Rules of the European Court of
-            Arbitration being part of the European Centre of Arbitration having
-            its seat in Strasbourg, and which are in force at the time the
-            application for arbitration is filed, and of which adoption of this
-            clause constitutes acceptance. The seat of arbitration shall be
-            London, United Kingdom. The language of the proceedings shall be
-            English. Applicable rules of substantive law shall be the law of the
-            United Kingdom.). REPLACE Restrictions The Parties agree that any
-            arbitration shall be limited to the Dispute between the Parties
-            individually. To the full extent permitted by law, (a) no
-            arbitration shall be joined with any other proceeding; (b) there is
-            no right or authority for any Dispute to be arbitrated on a
-            class-action basis or to utilize class action procedures; and (c)
-            there is no right or authority for any Dispute to be brought in a
-            purported representative capacity on behalf of the general public or
-            any other persons. Exceptions to Informal Negotiations and
-            Arbitration The Parties agree that the following Disputes are not
-            subject to the above provisions concerning informal negotiations and
-            binding arbitration: (a) any Disputes seeking to enforce or protect,
-            or concerning the validity of, any of the intellectual property
-            rights of a Party; (b) any Dispute related to, or arising from,
-            allegations of theft, piracy, invasion of privacy, or unauthorized
-            use; and (c) any claim for injunctive relief. If this provision is
-            found to be illegal or unenforceable, then neither Party will elect
-            to arbitrate any Dispute falling within that portion of this
-            provision found to be illegal or unenforceable and such Dispute
-            shall be decided by a court of competent jurisdiction within the
-            courts listed for jurisdiction above, and the Parties agree to
-            submit to the personal jurisdiction of that court. CORRECTIONS There
-            may be information on the Site that contains typographical errors,
-            inaccuracies, or omissions, including descriptions, pricing,
-            availability, and various other information. We reserve the right to
-            correct any errors, inaccuracies, or omissions and to change or
-            update the information on the Site at any time, without prior
-            notice. <br />
+            7. THE PROVISION OF the Trading Master Global LTD, Coyle Capital
+            Trust S.A and Fully Managed Funded (Master Trader Program & COPY
+            TRADING SERVICE SHALL NOT CONSTITUTE INVESTMENT ADVICE. YOU ARE
+            USING THE COPY TRADING SERVICE AT YOUR OWN RISK AND Trading Master
+            Global LTD AND ITS DIRECTORS, OFFICERS, EMPLOYEES, AFFILIATES,
+            CLIENTS AND AGENTS WILL NOT BE LIABLE FOR ANY LOSSES THAT YOU MAY
+            SUSTAIN AS a RESULT OF YOUR USE OF THE COPY TRADING SERVICES OR
+            ACTING ON ANY INFORMATION PROVIDED BY ANY COPIED TRADER, ACCOUNT,
+            PORTFOLIO OR STRATEGY. NEITHER Trading Master Global LTD, ITS
+            DIRECTORS, OFFICERS, EMPLOYEES, AFFILATES, OR ANY COPIED TRADER,
+            ACCOUNT, PORTFOLIO OR STRATEGY IS ABLE TO GUARANTEE THE FUTURE
+            PERFORMANCE OF ANY TRADER, ACCOUNT, PORTFOLIO, STRATEGY, TRANSACTION
+            OR TRADE, ANY SPECIFIC LEVEL OF PERFORMANCE OR THE SUCCESS OF ANY
+            TRADING STRATEGIES. TRADING STRATEGIES ARE SUBJECT TO VARIOUS
+            MARKET, CURRENCY, ECONOMIC, POLITICAL AND BUSINESS RISKS. TRADING
+            DECISIONS MAY NOT BE PROFITABLE AND MAY RESULT IN THE LOSS OF YOUR
+            ENTIRE INVESTED AMOUNT.{" "}
+            <strong>
+              Past Result Is Not A Guarantee Or Prediction Of Future
+              Performance.
+            </strong>
             <br />
-            DISCLAIMER
             <br />
-            <br /> THE SITE IS PROVIDED ON AN AS-IS AND AS-AVAILABLE BASIS. YOU
-            AGREE THAT YOUR USE OF THE SITE AND OUR SERVICES WILL BE AT YOUR
-            SOLE RISK. TO THE FULLEST EXTENT PERMITTED BY LAW, WE DISCLAIM ALL
-            WARRANTIES, EXPRESS OR IMPLIED, IN CONNECTION WITH THE SITE AND YOUR
-            USE THEREOF, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES
-            OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-
-            INFRINGEMENT. WE MAKE NO WARRANTIES OR REPRESENTATIONS ABOUT THE
-            ACCURACY OR COMPLETENESS OF THE SITE’S CONTENT OR THE CONTENT OF ANY
-            WEBSITES LINKED TO THE SITE AND WE WILL ASSUME NO LIABILITY OR
-            RESPONSIBILITY FOR ANY (1) ERRORS, MISTAKES, OR INACCURACIES OF
-            CONTENT AND MATERIALS, (2) PERSONAL INJURY OR PROPERTY DAMAGE, OF
-            ANY NATURE WHATSOEVER, RESULTING FROM YOUR ACCESS TO AND USE OF THE
-            SITE, (3) ANY UNAUTHORIZED ACCESS TO OR USE OF OUR SECURE SERVERS
-            AND/OR ANY AND ALL PERSONAL INFORMATION AND/OR FINANCIAL INFORMATION
-            STORED THEREIN, (4) ANY INTERRUPTION OR CESSATION OF TRANSMISSION TO
-            OR FROM THE SITE, (5) ANY BUGS, VIRUSES, TROJAN HORSES, OR THE LIKE
-            WHICH MAY BE TRANSMITTED TO OR THROUGH THE SITE BY ANY THIRD PARTY,
-            AND/OR (6) ANY ERRORS OR OMISSIONS IN ANY CONTENT AND MATERIALS OR
-            FOR ANY LOSS OR DAMAGE OF ANY KIND INCURRED AS A RESULT OF THE USE
-            OF ANY CONTENT POSTED, TRANSMITTED, OR OTHERWISE MADE AVAILABLE VIA
-            THE SITE. WE DO NOT WARRANT, ENDORSE, GUARANTEE, OR ASSUME
-            RESPONSIBILITY FOR ANY PRODUCT OR SERVICE ADVERTISED OR OFFERED BY A
-            THIRD PARTY THROUGH THE SITE, ANY HYPERLINKED WEBSITE, OR ANY
-            WEBSITE OR MOBILE APPLICATION FEATURED IN ANY BANNER OR OTHER
-            ADVERTISING, AND WE WILL NOT BE A PARTY TO OR IN ANY WAY BE
-            RESPONSIBLE FOR MONITORING ANY TRANSACTION BETWEEN YOU AND ANY
-            THIRD-PARTY PROVIDERS OF PRODUCTS OR SERVICES. AS WITH THE PURCHASE
-            OF A PRODUCT OR SERVICE THROUGH ANY MEDIUM OR IN ANY ENVIRONMENT,
-            YOU SHOULD USE YOUR BEST JUDGMENT AND EXERCISE CAUTION WHERE
-            APPROPRIATE. LIMITATIONS OF LIABILITY IN NO EVENT WILL WE OR OUR
-            DIRECTORS, EMPLOYEES, OR AGENTS BE LIABLE TO YOU OR ANY THIRD PARTY
-            FOR ANY DIRECT, INDIRECT, CONSEQUENTIAL, EXEMPLARY, INCIDENTAL,
-            SPECIAL, OR PUNITIVE DAMAGES, INCLUDING LOST PROFIT, LOST REVENUE,
-            LOSS OF DATA, OR OTHER DAMAGES ARISING FROM YOUR USE OF THE SITE,
-            EVEN IF WE HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
-            NOTWITHSTANDING ANYTHING TO THE CONTRARY CONTAINED HEREIN, OUR
-            LIABILITY TO YOU FOR ANY CAUSE WHATSOEVER AND REGARDLESS OF THE FORM
-            OF THE ACTION, WILL AT ALL TIMES BE LIMITED TO THE AMOUNT PAID, IF
-            ANY, BY YOU TO US DURING THE ONE (1) MONTH PERIOD PRIOR TO ANY CAUSE
-            OF ACTION ARISING. CERTAIN US STATE LAWS AND INTERNATIONAL LAWS DO
-            NOT ALLOW LIMITATIONS ON IMPLIED WARRANTIES OR THE EXCLUSION OR
-            LIMITATION OF CERTAIN DAMAGES. IF THESE LAWS APPLY TO YOU, SOME OR
-            ALL OF THE ABOVE DISCLAIMERS OR LIMITATIONS MAY NOT APPLY TO YOU,
-            AND YOU MAY HAVE ADDITIONAL RIGHTS. INDEMNIFICATION You agree to
-            defend, indemnify, and hold us harmless, including our subsidiaries,
-            affiliates, and all of our respective officers, agents, partners,
-            and employees, from and against any loss, damage, liability, claim,
-            or demand, including reasonable attorneys’ fees and expenses, made
-            by any third party due to or arising out of: (1) use of the Site;
-            (2) breach of these Terms of Use; (3) any breach of your
-            representations and warranties set forth in these Terms of Use; (4)
-            your violation of the rights of a third party, including but not
-            limited to intellectual property rights; or (5) any overt harmful
-            act toward any other user of the Site with whom you connected via
-            the Site. Notwithstanding the foregoing, we reserve the right, at
-            your expense, to assume the exclusive defence and control of any
-            matter for which you are required to indemnify us, and you agree to
-            cooperate, at your expense, with our defence of such claims. We will
-            use reasonable efforts to notify you of any such claim, action, or
-            proceeding which is subject to this indemnification upon becoming
-            aware of it. <br />
-            <br />
-            USER DATA
-            <br />
-            <br /> We will maintain certain data that you transmit to the Site
-            for the purpose of managing the performance of the Site, as well as
-            data relating to your use of the Site. Although we perform regular
-            routine backups of data, you are solely responsible for all data
-            that you transmit or that relates to any activity you have
-            undertaken using the Site. You agree that we shall have no liability
-            to you for any loss or corruption of any such data, and you hereby
-            waive any right of action against us arising from any such loss or
-            corruption of such data. <br />
-            <br />
-            ELECTRONIC COMMUNICATIONS, TRANSACTIONS, AND SIGNATURES
-            <br />
-            <br /> Visiting the Site, sending us emails, and completing online
-            forms constitute electronic communications. You consent to receive
-            electronic communications, and you agree that all agreements,
-            notices, disclosures, and other communications we provide to you
-            electronically, via email and on the Site, satisfy any legal
-            requirement that such communication be in writing. YOU HEREBY AGREE
-            TO THE USE OF ELECTRONIC SIGNATURES, CONTRACTS, ORDERS, AND OTHER
-            RECORDS, AND TO ELECTRONIC DELIVERY OF NOTICES, POLICIES, AND
-            RECORDS OF TRANSACTIONS INITIATED OR COMPLETED BY US OR VIA THE
-            SITE. You hereby waive any rights or requirements under any
-            statutes, regulations, rules, ordinances, or other laws in any
-            jurisdiction which require an original signature or delivery or
-            retention of non-electronic records, or to payments or the granting
-            of credits by any means other than electronic means. CALIFORNIA
-            USERS AND RESIDENTS If any complaint with us is not satisfactorily
-            resolved, you can contact the Complaint Assistance Unit of the
-            Division of Consumer Services of the California Department of
-            Consumer Affairs in writing at 1625 North Market Blvd., Suite N 112,
-            Sacramento, California 95834 or by telephone at (800) 952-5210 or
-            (916) 445- 1254. MISCELLANEOUS These Terms of Use and any policies
-            or operating rules posted by us on the Site or in respect to the
-            Site constitute the entire agreement and understanding between you
-            and us. Our failure to exercise or enforce any right or provision of
-            these Terms of Use shall not operate as a waiver of such right or
-            provision. These Terms of Use operate to the fullest extent
-            permissible by law. We may assign any or all of our rights and
-            obligations to others at any time. We shall not be responsible or
-            liable for any loss, damage, delay, or failure to act caused by any
-            cause beyond our reasonable control. If any provision or part of a
-            provision of these Terms of Use is determined to be unlawful, void,
-            or unenforceable, that provision or part of the provision is deemed
-            severable from these Terms of Use and does not affect the validity
-            and enforceability of any remaining provisions. There is no joint
-            venture, partnership, employment or agency relationship created
-            between you and us as a result of these Terms of Use or use of the
-            Site. You agree that these Terms of Use will not be construed
-            against us by virtue of having drafted them. You hereby waive any
-            and all defences you may have based on the electronic form of these
-            Terms of Use and the lack of signing by the parties hereto to
-            execute these Terms of Use. DISCLAIMER Syndicate Funded LLC does not
-            carry out any regulated activities, the only exclusive activities we
-            carry out are Proprietary Trading and Professional Training.
-            Consequently, we are not required to be authorized by the regulatory
-            authority. Traders do not have direct access to company capital, and
-            trade accounts with virtual funds, therefore, traders are not
-            required to have a money managers license. Syndicate Funded LLC is
-            not a broker, and do not accept deposits. All information provided
-            on this site is intended solely for the study purposes related to
-            trading on financial markets and does not serve in any way as a
-            specific investment recommendation, business recommendation,
-            investment opportunity analysis or similar general recommendation
-            regarding the trading of investment instruments. Trading in
-            financial markets is a high-risk activity and it is advised not to
-            risk more than one can afford to lose FUNDED ACCOUNT DISCLAIMER
-            Funded Account Disclaimer: Hypothetical or simulated performance
-            results have certain limitations. Unlike an actual performance
-            record, simulated results do not represent actual trading. Also,
-            because the trades have not actually been executed, the results may
-            have under-or-over compensated for the impact, if any, of certain
-            market factors, such as lack of liquidity. Simulated trading
-            programs, in general, are also subject to the fact that they are
-            designed with the benefit of hindsight. No representation is being
-            made that any account will or is likely to achieve Virtual profit or
-            losses similar to those shown. Syndicate Funded funded accounts are
-            not live trading accounts, they are fully simulated accounts
-            utilizing real market quotes from liquidity providers. The Traders
-            featured are representative only and includes selected traders who
-            allow their names to be publicly disclosed. Trader performance
-            quoted represents past performance in a simulated environment and
-            does not guarantee current or future performance. Further, financial
-            instrument trading involves substantial risk of loss and is not
-            suitable for every investor, trading activities referenced by or
-            undertaken utilizing Syndicate Funded may not be suitable for all
-            persons. CONTACT US In order to resolve a complaint regarding the
-            Site or to receive further information regarding use of the Site,
-            please contact us.
+            8. Governing Language In The Event Any Translation Of This
+            Disclaimer, The Terms Of Services, Or Risk Disclaimer Are Prepared
+            For Convenience Or Any Other Purpose, The Provisions Of The English
+            Version Shall Prevail.
           </Typography>
+          <Typography sx={{ ...stylesMui.policyHeadings, my: "1rem" }}>
+            (AML&KYC)
+          </Typography>
+          <Typography sx={{ ...stylesMui.policyHeadings, mb: "1rem" }}>
+            Summary of anti-money laundering and know your customer policy
+            (AML&KYC)
+          </Typography>
+          <Typography sx={stylesMui.policyText}>
+            To monitor the accordance with EU directives and recommendations of
+            FATF, B2BX Digital Exchange OU (hereinafter - Trading Master Global
+            or Company) has established a Compliance department responsible for
+            Anti-money laundering and Know Your Customer (AML & KYC) procedures,
+            obligatory for all employees and determining the policy of
+            engagement with any individual or company which has an account on
+            the website www.fullymanagedfunded.com. <br />
+            <br />
+            This summary describes base points of Company's internal AML policy:
+          </Typography>
+          <Typography sx={{ ...stylesMui.policyHeadings, mb: "1rem" }}>
+            Introduction
+          </Typography>
+          <Typography sx={stylesMui.policyText}>
+            Coyle Capital Trust S.A and Fully Managed Funded is a Software for
+            Service Company (FMF) committed to upholding the highest standards
+            of integrity, transparency, and compliance with Anti-Money
+            Laundering (AML) laws and regulations. This policy outlines FMF’s
+            commitment to preventing its services from being misused for money
+            laundering, terrorist financing, or any other illicit activities.
+          </Typography>
+          <Typography sx={{ ...stylesMui.policyHeadings, mb: "1rem" }}>
+            Purpose
+          </Typography>
+          <Typography sx={stylesMui.policyText}>
+            Coyle Capital Trust S.A and Fully Managed Funded. verifies client
+            bank’s reputation, geographic location and license. The client is
+            allowed to declare only one bank account for transactions, and all
+            deposits and withdrawals are allowed only from/to the declared
+            account. The Company performs real-time checks of transactions. In
+            case of the evidence or signs of suspicious transactions at the
+            client’s account, cash or crypto replenishments from untrusted
+            sources and / or any actions with attributes of fraud, the Company
+            reserves the right to conduct an internal investigation, to block or
+            close the Customer’s Trading Room or any Account, cancel any payment
+            or trading order and to suspend operations on the Accounts.
+            <br />
+            <br />
+            The purpose of this AML policy is to: <br />
+            <br />
+            - Establish robust procedures and controls to detect, prevent, and
+            mitigate the risk of money laundering and terrorist financing.
+            <br />
+            <br />- Ensure compliance with all applicable AML laws and
+            regulations, including but not limited to the regulations set forth
+            by regulatory authorities such as the Financial Action Task Force
+            (FATF) and local regulatory bodies. <br />
+            <br />- Provide guidance to employees and stakeholders on their
+            responsibilities in identifying and reporting suspicious activities.
+          </Typography>
+          <Typography sx={{ ...stylesMui.policyHeadings, mb: "1rem" }}>
+            GEOGRAPHIC OF PROVIDING SERVICES
+          </Typography>
+          <Typography sx={stylesMui.policyText}>
+            The Company doesn’t provide services to the persons who located at
+            the jurisdictions that are identified by the EU and FATF as high
+            risk and non-cooperative jurisdictions having strategic AML/CFT
+            deficiencies, according to official lists (including Iran, North
+            Korea, etc.). Moreover, the Company doesn’t provide services to
+            citizens and residents of U.S.A.
+          </Typography>
+          <Typography sx={{ ...stylesMui.policyHeadings, mb: "1rem" }}>
+            Know Your Customer (KYC) Procedures
+          </Typography>
+          <Typography sx={stylesMui.policyText}>
+            FMF will implement robust Know Your Customer (KYC) procedures to
+            ensure a thorough understanding of its customers and their financial
+            activities. KYC procedures will include:
+            <br />
+            <br />
+            - Verifying the identity of customers through reliable and
+            independent sources, such as government-issued identification
+            documents, utility bills, or bank statements. <br />
+            <br />
+            - Assessing the source of funds and wealth of customers to ensure
+            they are legitimate and not derived from illicit activities. <br />
+            <br />- Monitoring customer transactions and account activities for
+            any unusual or suspicious patterns that may indicate potential money
+            laundering or terrorist financing activities.
+          </Typography>
+          <Typography sx={{ ...stylesMui.policyHeadings, mb: "1rem" }}>
+            Customer Due Diligence (CDD)
+          </Typography>
+          <Typography sx={stylesMui.policyText}>
+            FMF will conduct thorough Customer Due Diligence (CDD) procedures to
+            verify the identity of its customers and assess the associated
+            risks. CDD measures will include: <br />
+            <br />- Obtaining sufficient information to establish the identity
+            of the customer, including name, address, date of birth, and
+            identification documents. <br />
+            <br />- Conducting ongoing monitoring of customer accounts and
+            transactions to identify any unusual or suspicious activities.
+            <br />
+            <br />- Assessing the risk level associated with each customer based
+            on factors such as the customer’s jurisdiction, business activities,
+            transaction patterns, and Politically Exposed Person (PEP) status.
+          </Typography>
+          <Typography sx={{ ...stylesMui.policyHeadings, mb: "1rem" }}>
+            Enhanced Due Diligence (EDD)
+          </Typography>
+          <Typography sx={stylesMui.policyText}>
+            FMF will apply Enhanced Due Diligence (EDD) measures to customers
+            posing a higher risk of money laundering or terrorist financing. EDD
+            measures may include: <br />
+            <br />- Obtaining additional information and documentation from
+            high-risk customers, such as detailed business profiles, financial
+            statements, or references from reputable sources. <br />
+            <br />- Conducting enhanced ongoing monitoring of high-risk accounts
+            and transactions to detect and prevent suspicious activities. <br />
+            <br />- Seeking approval from senior management before establishing
+            or maintaining business relationships with high-risk customers.
+          </Typography>
+          <Typography sx={{ ...stylesMui.policyHeadings, mb: "1rem" }}>
+            Transaction Monitoring and Reporting
+          </Typography>
+          <Typography sx={stylesMui.policyText}>
+            FMF will implement robust transaction monitoring systems to detect
+            and prevent suspicious or unusual activities. Transaction monitoring
+            measures will include: <br />
+            <br />- Utilizing automated systems and algorithms to flag
+            transactions that deviate from normal patterns or thresholds. <br />
+            <br />- Conducting manual reviews of flagged transactions to assess
+            their legitimacy and determine whether further investigation is
+            warranted. <br />
+            <br />- Reporting suspicious transactions to the appropriate
+            authorities in accordance with applicable laws and regulations.
+          </Typography>
+          <Typography sx={{ ...stylesMui.policyHeadings, mb: "1rem" }}>
+            Training and Awareness
+          </Typography>
+          <Typography sx={stylesMui.policyText}>
+            FMF will provide regular training to employees on AML policies,
+            procedures, and best practices. Training will include: <br />
+            <br />- Education on the risks of money laundering and terrorist
+            financing. <br />
+            <br />- Recognition of red flags and indicators of suspicious
+            activities. <br />
+            <br />- Procedures for reporting suspicious activities internally
+            and externally. Updates on changes to AML laws, regulations, and
+            industry best practices.
+          </Typography>
+          <Typography sx={{ ...stylesMui.policyHeadings, mb: "1rem" }}>
+            Record keeping
+          </Typography>
+          <Typography sx={stylesMui.policyText}>
+            FMF will maintain accurate and up-to-date records of customer due
+            diligence activities, including customer identification documents,
+            transaction details, and any communications related to AML
+            compliance. Records will be retained for the period required by law
+            and made available to regulatory authorities upon request.
+          </Typography>
+          <Typography sx={{ ...stylesMui.policyHeadings, mb: "1rem" }}>
+            Compliance Oversight
+          </Typography>
+          <Typography sx={stylesMui.policyText}>
+            FMF will appoint a designated AML compliance officer responsible for
+            overseeing the implementation of this AML policy and ensuring
+            compliance with applicable laws and regulations. The compliance
+            officer will: <br />
+            <br />
+            -Monitor TMG’s AML program to identify areas for improvement and
+            ensure timely implementation of necessary changes. <br />
+            <br />- Conduct periodic reviews and audits of FMF’s AML policies,
+            procedures, and controls. <br />
+            <br />- Serve as the primary point of contact for regulatory
+            authorities regarding AML compliance matters.
+          </Typography>
+          <Typography sx={{ ...stylesMui.policyHeadings, mb: "1rem" }}>
+            RISK ASSESSMENT
+          </Typography>
+          <Typography sx={stylesMui.policyText}>
+            The Company applies a Risk Based Approach across the business, this
+            requires identification, assessment, understanding and mitigation of
+            AML/CTF risk including considering risk factors such as customer,
+            product, geography and channel.
+          </Typography>
+          <Typography sx={{ ...stylesMui.policyHeadings, mb: "1rem" }}>
+            Conclusion
+          </Typography>
+          <Typography sx={stylesMui.policyText}>
+            TMG is committed to maintaining a strong and effective AML program
+            to protect its services from being exploited for illicit purposes.
+            This AML policy reflects FMF's dedication to integrity,
+            transparency, and regulatory compliance in all aspects of its
+            operations.
+          </Typography>
+          <Typography sx={{ ...stylesMui.policyHeadings, mb: "1rem" }}>
+            TERMS AND CONDITIONS FULLY MANAGED FUNDED TERMS AND CONDITIONS
+          </Typography>
+          <Typography sx={stylesMui.policyText}>
+            These terms and conditions (“Terms”, “Agreement”) are an agreement
+            between COYL CAPITAL S.A TRUST DBA (“FULLY MANAGED FUNDED.”, “us”,
+            “we” or “our”) and you (“User”, “you” or “your”). This Agreement
+            sets forth the general terms and conditions of your use of the
+            http:// www.thetradingmaster.com website and any of its products or
+            services (collectively, “Website” or “Services”).
+          </Typography>
+          <br />
+          <Typography sx={stylesMui.policyText}>
+            ACCURACY OF INFORMATION – Occasionally there may be information on
+            the Website that contains typographical errors, inaccuracies or
+            omissions that may relate to product descriptions, availability,
+            promotions and offers. We reserve the right to correct any errors,
+            inaccuracies or omissions, and to change or update information or
+            cancel orders if any information on the Website or on any related
+            Service is inaccurate at any time without prior notice (including
+            after you have submitted your order). We undertake no obligation to
+            update, amend or clarify information on the Website including,
+            without limitation, pricing information, except as required by law.
+            No specified update or refresh date applied on the Website should be
+            taken to indicate that all information on the Website or on any
+            related Service has been modified or updated.
+          </Typography>
+          <br />
+          <Typography sx={stylesMui.policyText}>
+            UPTIME GUARANTEE – We offer a Service uptime guarantee of 99% of
+            available time per month. The service uptime guarantee does not
+            apply to service interruptions caused by: (1) periodic scheduled
+            maintenance or repairs we may undertake from time to time; (2)
+            interruptions caused by you or your activities; (3) outages that do
+            not affect core Service functionality; (4) causes beyond our control
+            or that are not reasonably foreseeable; and (5) outages related to
+            the reliability of certain programming environments.
+          </Typography>
+          <br />
+          <Typography sx={stylesMui.policyText}>
+            BACKUPS – We are not responsible for Content residing on the
+            Website. In no event shall we be held liable for any loss of any
+            Content. It is your sole responsibility to maintain appropriate
+            backup of your Content. Notwithstanding the foregoing, on some
+            occasions and in certain circumstances, with absolutely no
+            obligation, we may be able to restore some or all of your data that
+            has been deleted as of a certain date and time when we may have
+            backed up data for our own purposes. We make no guarantee that the
+            data you need will be available.
+          </Typography>
+          <br />
+          <Typography sx={stylesMui.policyText}>
+            PROHIBITED USES – In addition to other terms as set forth in the
+            Agreement, you are prohibited from using the Website or its Content:
+            (a) for any unlawful purpose; (b) to solicit others to perform or
+            participate in any unlawful acts; (c) to violate any international,
+            federal, provincial or state regulations, rules, laws, or local
+            ordinances; (d) to infringe upon or violate our intellectual
+            property rights or the intellectual property rights of others; (e)
+            to harass, abuse, insult, harm, defame, slander, disparage,
+            intimidate, or discriminate based on gender, sexual orientation,
+            religion, ethnicity, race, age, national origin, or disability; (f)
+            to submit false or misleading information; (g) to upload or transmit
+            viruses or any other type of malicious code that will or may be used
+            in any way that will affect the functionality or operation of the
+            Service or of any related website, other websites, or the Internet;
+            (h) to collect or track the personal information of others; (i) to
+            spam, phish, pharm, pretext, spider, crawl, or scrape; (j) for any
+            obscene or immoral purpose; or (k) to interfere with or circumvent
+            the security features of the Service or any related website, other
+            websites, or the Internet. We reserve the right to terminate your
+            use of the Service or any related website for violating any of the
+            prohibited uses.
+          </Typography>
+          <br />
+          <Typography sx={stylesMui.policyText}>
+            INTELLECTUAL PROPERTY RIGHTS – This Agreement does `not transfer
+            from TCOYL CAPITAL S.A TRUST to you any COYL CAPITAL S.A TRUST or
+            third-party intellectual property, and all right, title, and
+            interest in and to such property will remain (as between the
+            parties) solely with The COYL CAPITAL S.A TRUST. All trademarks,
+            service marks, graphics and logos used in connection with our
+            Website or Services, are trademarks or registered trademarks of COYL
+            CAPITAL S.A TRUST or COYL CAPITAL S.A TRUST. licensors. Other
+            trademarks, service marks, graphics and logos used in connection
+            with our Website or Services may be the trademarks of other third
+            parties. Your use of our Website and Services grants you no right or
+            license to reproduce or otherwise use any COYL CAPITAL S.A TRUST or
+            third-party trademarks.
+          </Typography>
+          <br />
+          <Typography sx={stylesMui.policyText}>
+            DISCLAIMER OF WARRANTY – You agree that your use of our Website or
+            Services is solely at your own risk. You agree that such Service is
+            provided on an “as is” and “as available” basis. We expressly
+            disclaim all warranties of any kind, whether express or implied,
+            including but not limited to the implied warranties of
+            merchantability, fitness for a particular purpose and
+            non-infringement. We make no warranty that the Services will meet
+            your requirements, or that the Service will be uninterrupted,
+            timely, secure, or error free; nor do we make any warranty as to the
+            results that may be obtained from the use of the Service or as to
+            the accuracy or reliability of any information obtained through the
+            Service or that defects in the Service will be corrected. You
+            understand and agree that any material and/or data downloaded or
+            otherwise obtained through the use of Service is done at your own
+            discretion and risk and that you will be solely responsible for any
+            damage to your computer system or loss of data that results from the
+            download of such material and/or data. We make no warranty regarding
+            any goods or services purchased or obtained through the Service or
+            any transactions entered into through the Service. No advice or
+            information, whether oral or written, obtained by you from us or
+            through the Service shall create any warranty not expressly made
+            herein.
+          </Typography>
+          <br />
+          <Typography sx={stylesMui.policyText}>
+            LIMITATION OF LIABILITY – To the fullest extent permitted by
+            applicable law, in no event will COYL CAPITAL S.A TRUST., its
+            affiliates, officers, directors, employees, agents, suppliers or
+            licensors be liable to any person for (a): any indirect, incidental,
+            special, punitive, cover or consequential damages (including,
+            without limitation, damages for lost profits, revenue, sales,
+            goodwill, use or content, impact on business, business interruption,
+            loss of anticipated savings, loss of business opportunity) however
+            caused, under any theory of liability, including, without
+            limitation, contract, tort, warranty, breach of statutory duty,
+            negligence or otherwise, even if COYL CAPITAL S.A TRUST. has been
+            advised as to the possibility of such damages or could have foreseen
+            such damages.
+          </Typography>
+          <br />
+          <Typography sx={stylesMui.policyText}>
+            INDEMNIFICATION- You agree to indemnify and hold COYL CAPITAL S.A
+            TRUST. and its affiliates, directors, officers, employees, and
+            agents harmless from and against any liabilities, losses, damages or
+            costs, including reasonable attorneys’ fees, incurred in connection
+            with or arising from any third-party allegations, claims, actions,
+            disputes, or demands asserted against any of them as a result of or
+            relating to your Content, your use of the Website or Services or any
+            willful misconduct on your part.
+          </Typography>
+          <br />
+          <Typography sx={stylesMui.policyText}>
+            SEVERABILITY- All rights and restrictions contained in this
+            Agreement may be exercised and shall be applicable and binding only
+            to the extent that they do not violate any applicable laws and are
+            intended to be limited to the extent necessary so that they will not
+            render this Agreement illegal, invalid or unenforceable. If any
+            provision or portion of any provision of this Agreement shall be
+            held to be illegal, invalid or unenforceable by a court of competent
+            jurisdiction, it is the intention of the parties that the remaining
+            provisions or portions thereof shall constitute their agreement with
+            respect to the subject matter hereof, and all such remaining
+            provisions or portions thereof shall remain in full force and
+            effect.
+          </Typography>
+          <br />
+          <Typography sx={stylesMui.policyText}>
+            DISPUTE RESOLUTION- The formation, interpretation and performance of
+            this Agreement and any disputes arising out of it shall be governed
+            by the substantive and procedural laws of Grenadines, Saint Vincent
+            and The Grenadines without regard to its rules on conflicts or
+            choice of law and, to the extent applicable, the laws of Saint
+            Vincent and The Grenadines. The exclusive jurisdiction and venue for
+            actions related to the subject matter hereof shall be the state and
+            federal courts located in Grenadines, Saint Vincent and The
+            Grenadines, and you hereby submit to the personal jurisdiction of
+            such courts. You hereby waive any right to a jury trial in any
+            proceeding arising out of or related to this Agreement. The United
+            Nations Convention on Contracts for the International Sale of Goods
+            does not apply to this Agreement
+          </Typography>
+          <br />
+          <Typography sx={stylesMui.policyText}>
+            ASSIGNMENT- You may not assign, resell, sub-license or otherwise
+            transfer or delegate any of your rights or obligations hereunder, in
+            whole or in part, without our prior written consent, which consent
+            shall be at our own sole discretion and without obligation; any such
+            assignment or transfer shall be null and void. We are is free to
+            assign any of its rights or obligations hereunder, in whole or in
+            part, to any thirdparty as part of the sale of all or substantially
+            all of its assets or stock or as part of a merger.
+          </Typography>
+          <br />
+          <Typography sx={stylesMui.policyText}>
+            CHANGES AND AMENDMENTS- We reserve the right to modify this
+            Agreement or its policies relating to the Website or Services at any
+            time, effective upon posting of an updated version of this Agreement
+            on the Website. When we do we will post a notification on the main
+            page of our Website. Continued use of the Website after any such
+            changes shall constitute your consent to such changes.
+          </Typography>
+          <br />
+          <Typography sx={stylesMui.policyText}>
+            TERMINATION Without limiting our rights to take the action set out
+            in clause Effects our other rights in this Agreement. Further, each
+            indemnity provided by you in this Agreement survives termination. On
+            termination of this Agreement, without restricting any of our other
+            rights in this Agreement, we may do one or more of the
+            following:-(a)close your Account;-(b)settle any Transaction which
+            has not at the time of termination settled;-(c)enter into one or
+            more Transactions to effect the Close Out of one or more unsettled
+            Transactions or Open Positions (and determine the value at which the
+            Transaction or Transactions will be Closed Out);- (d)cancel any
+            Orders;-(e)do or refrain from doing anything which we consider
+            appropriate in the circumstances;-(f)exercise any of our other
+            rights in this Agreement. Effects our other rights in this
+            Agreement. Further, each indemnity provided by you in this Agreement
+            survives termination. On termination of this Agreement, without
+            restricting any of our other rights in this Agreement, we may do one
+            or more of the following:-(a)close your Account;-(b)settle any
+            Transaction which has not at the time of termination
+            settled;-(c)enter into one or more Transactions to effect the Close
+            Out of one or more unsettled Transactions or Open Positions (and
+            determine the value at which the Transaction or Transactions will be
+            Closed Out);- (d)cancel any Orders;-(e)do or refrain from doing
+            anything which we consider appropriate in the
+            circumstances;-(f)exercise any of our other rights in this
+            Agreement. We’re not liable to you for any loss, expense, Cost or
+            liability that you suffer or incur because of any failure of the
+            Platform, data or service interruptions, transmission failure or
+            delays or similar technical errors arising out of or in connection
+            with the use, operation, performance and/or error or malfunction of
+            the Platform, other than as a result of our fraud, willful default
+            or negligence:- (b) we’re not liable to you for any removal of
+            Profits or Losses you might suffer due to errors in quotes which are
+            the result of our typing errors, feed errors or any incorrect
+            perception of information that you enter into the system other than
+            as a result of our fraud, willful default or negligence;-(c) we’re
+            entitled to make the necessary corrections in your Account based on
+            the market value of the relevant Underlying Asset the time an error
+            occurs;-(d) the price of your Contract may change in the time
+            between when we initially offer it to you and when we receive your
+            Order, because of delays in transmission between you and us. If we
+            offer automatic Order execution to you, we’re entitled to change the
+            price at which your order is executed to the market value at the
+            time we receive the Order from you;-(e) our Platform may be
+            available in several versions, which can vary regarding certain
+            features, including but not limited to the level of security applied
+            and products and services available. We’re not liable to you for any
+            loss, expense, Cost or liability that you suffer or incur because
+            you’ve used a different version of the Platform than our current
+            standard version (with all available updates installed);-(f) you’re
+            responsible for all Orders and for the accuracy of all information
+            sent via the Platform using your name, password or any other means
+            of personal identification implemented to identify you;-(g) you must
+            keep all passwords secret and ensure that no one else accesses your
+            Account;-(h) you’re liable to us for Contracts executed via your
+            password even if you haven’t allowed your password to be used or
+            your Account is wrongfully accessed;-(i) any Confirmation that we
+            send or make available to you on the Platform is our confirmation of
+            a Contract, regardless of whether the Platform confirms that the
+            Contract is executed immediately when you send your instructions.
+          </Typography>
+          <br />
+          <Typography sx={stylesMui.policyText}>
+            ARBITRAGE: Internet, connectivity delays, and price feed errors
+            sometimes create a situation where the price displayed on the
+            Trader’s Domains online facility do not accurately reflect the
+            market rates.COYL CAPITAL S.A TRUST does not permit the practice of
+            latency arbitrage on COYL CAPITAL S.A TRUSTtrading platform.
+            Transactions based on latency arbitrage may be revoked without any
+            prior notice. COYL CAPITAL S.A TRUSTreserves the right to make any
+            necessary adjustments or corrections on accounts involved without
+            any prior notice. You agree that any dispute arising from such
+            execution or quoting errors will be resolved by COYL CAPITAL S.A
+            TRUST in their sole and absolute discretion. THE COYL CAPITAL S.A
+            TRUST shall have no obligation to contact you about occurrences of
+            trades suspected to involve latency arbitrage and any subsequent
+            corrections. You agree to indemnify and hold COYL CAPITAL S.A TRUST,
+            it’s directors, employees, and agents harmless from and against any
+            and all liabilities, losses, damages, costs, and expenses.
+          </Typography>
+          <br />
+          <Typography sx={stylesMui.policyText}>
+            ACCEPTANCE OF THESE TERMS You acknowledge that you have read this
+            Agreement and agree to all its terms and conditions. By using the
+            Website or its Services you agree to be bound by this Agreement. If
+            you do not agree to abide by the terms of this Agreement, you are
+            not authorized to use or access the Website and its Services. COYL
+            CAPITAL S.A TRUST LTD all right reserved 2024.
+          </Typography>
+          <br />
+          <Typography sx={stylesMui.policyText}></Typography>
         </div>
         <div className="w-[17%] hidden md:block" id="nav">
           <PolicyNav />

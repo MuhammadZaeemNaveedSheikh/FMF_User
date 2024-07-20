@@ -22,11 +22,16 @@ export const webHeaderMenuItems: MenuItem[] = [
   },
   {
     id: 4,
+    path: "/web/fmf-academy",
+    name: "Academy",
+  },
+  {
+    id: 5,
     path: "/web/contests",
     name: "Contests",
   },
   {
-    id: 5,
+    id: 6,
     path: "/web/contact",
     name: "Contact Us",
   },

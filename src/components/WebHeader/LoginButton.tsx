@@ -7,7 +7,7 @@ const LoginButton = () => {
 
   const handleClick = () => {
     // Navigate to the "/sign-up" route
-    navigate("/web/login");
+    navigate("/login");
   };
 
   return (
@@ -16,17 +16,16 @@ const LoginButton = () => {
       onClick={handleClick} // Handle the click event
       sx={{
         py: { md: "0.25rem", xl: "0.75rem" },
-        px: { md: "0.5rem", "2xl": "1.5rem" },
-        borderRadius: "3rem",
-        border: "1px solid #5B1CD4",
-        background: "#000",
-        boxShadow: "0px 0px 30px 0px #5B1CD4 inset",
+        px: { md: "0.5rem", xl: "1.75rem" },
+        borderRadius: "6px",
+        backgroundColor: "#5B1CD4 !important",
       }}
     >
       <Typography
         variant="body1"
         sx={{
-          fontWeight: 500,
+          fontWeight: 400,
+          fontSize: 16,
           textTransform: "capitalize",
           color: theme.palette.mode === "light" ? "black" : "white",
         }}

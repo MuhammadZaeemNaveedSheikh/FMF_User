@@ -7,10 +7,17 @@ const StatisticsWebChart: React.FC<ApexChartProps> = () => {
   const chartData = {
     series: [
       {
-        name: "Sales",
+        name: "Points",
         data: [
-          400000, 3300000, 100000, 900000, 2900000, 1090000, 1000000, 930000,
-          120000, 700000, 1900000, 50000,
+          600000, 2300000, 200000, 800000, 3900000, 1080000, 1005000, 900000,
+          125000, 600000, 1905000, 55000,
+        ],
+      },
+      {
+        name: "Points 2",
+        data: [
+          300000, 5200000, 100000, 400000, 6800000, 2070000, 200000, 450000,
+          150000, 900000, 1205000, 90000,
         ],
       },
     ],
@@ -22,83 +29,83 @@ const StatisticsWebChart: React.FC<ApexChartProps> = () => {
         height: 350,
         type: "line",
       },
-
       stroke: {
-        width: 5,
-        curve: "straight",
+        width: 2,
+        curve: "smooth", // Changed to 'smooth' for curvier lines like in the image
+      },
+      markers: {
+        size: 0,
+        hover: {
+          size: 10,
+        },
+      },
+      tooltip: {
+        enabled: true,
+        x: {
+          format: "MM/yyyy",
+        },
       },
       xaxis: {
         type: "datetime",
         categories: [
-          "1/11/2000",
-          "2/11/2000",
-          "3/11/2000",
-          "4/11/2000",
-          "5/11/2000",
-          "6/11/2000",
-          "7/11/2000",
-          "8/11/2000",
-          "9/11/2000",
-          "10/11/2000",
-          "11/11/2000",
-          "12/11/2000",
+          "01-01-2024",
+          "02-02-2024",
+          "03-03-2024",
+          "04-04-2024",
+          "05-05-2024",
+          "06-06-2024",
+          "07-07-2024",
+          "08-08-2024",
+          "09-09-2024",
+          "10-10-2024",
+          "11-11-2024",
+          "12-12-2024",
         ],
         tickAmount: 10,
         labels: {
-          //@ts-ignore
-          formatter: function (value, timestamp, opts) {
-            return opts.dateFormatter(new Date(timestamp), "MMM");
-          },
           style: {
-            colors: "#707B81",
+            colors: "#748AA1", // Set label colors to white
           },
         },
       },
+      grid: {
+        show: true,
+        borderColor: "#40475D", // Match grid color to image
+        strokeDashArray: 5,
+      },
+      yaxis: {
+        show: false, // Hide y-axis labels
+      },
+      colors: ["#5B1CD4", "#3F464E"], // Use a purple color to match the image
       title: {
-        text: "",
+        text: "Total points",
         align: "left",
+        style: {
+          color: "#fff", // Setting title color
+          fontSize: "20px",
+          fontWeight: 400,
+          fontFamily: "Roboto",
+        },
+      },
+      legend: {
+        show: false,
       },
       fill: {
         type: "gradient",
         gradient: {
-          shade: "light",
-          gradientToColors: ["#FF5BEF"],
-          shadeIntensity: 1,
-          type: "horizontal",
-          opacityFrom: 1,
-          opacityTo: 1,
-          stops: [0, 100, 100, 100],
-        },
-      },
-      grid: {
-        show: false, // Hide both vertical and horizontal grid lines
-      },
-      yaxis: {
-        min: 0,
-        max: 5000000,
-        labels: {
-          style: {
-            colors: "#707B81", // Set the color of y-axis labels to white
-          },
-          formatter: function (value) {
-            // Convert the label value to desired format (50k, 5m, etc.)
-            if (value >= 1000000) {
-              return (value / 1000000).toFixed(0) + "m";
-            } else if (value >= 1000) {
-              return (value / 1000).toFixed(0) + "k";
-            } else {
-              return value.toFixed(0);
-            }
-          },
+          type: "vertical",
+          shadeIntensity: 0.5,
+          gradientToColors: ["#a55eea", null], // Gradient color
+          stops: [0, 100],
         },
       },
     },
   };
 
   return (
-    <div id="chart">
+    <div id="chart" className="bg-[#151322] rounded-2xl ">
       <ReactApexChart
-        //@ts-ignore
+        // @ts-ignore
         options={chartData.options}
         series={chartData.series}
         type="line"

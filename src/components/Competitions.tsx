@@ -82,7 +82,7 @@ const Competitions = () => {
       <div className="flex flex-col md:flex-row justify-between gap-y-4">
         <MainTitleComponent
           Image="/Icons/CompetitionsIcon.svg"
-          title="Competitions"
+          title="Special Offers"
         />
       </div>
       <Card

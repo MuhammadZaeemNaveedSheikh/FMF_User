@@ -13,6 +13,7 @@ import Faqs from "./pages/Faqs";
 import Legal from "./pages/Legal";
 // import Statistics from "./pages/Statistics";
 import Contests from "./pages/Contests";
+import SpecialOffers from "./pages/SpecialOffers";
 import Affiliates from "./pages/Affiliates";
 import Leaderboards from "./pages/Leaderboards";
 import CompetitionsWeb from "./pages/Competitions";
@@ -42,7 +43,9 @@ import HowITWorks from "./components/HowITWorks";
 import Profile from "./components/Profile";
 import Friends from "./components/Friends";
 import StatisticsWeb from "./components/StatisticsWeb";
+import AcademyWeb from "./components/AcademyWeb";
 import BillingWeb from "./components/BillingWeb";
+import Wallet from "./components/Wallet";
 
 import "./App.css";
 
@@ -56,9 +59,11 @@ const WebRoutes = () => (
     <Route path="/faqs" element={<Faqs />} />
     <Route path="/legal" element={<Legal />} />
     <Route path="/statistics" element={<StatisticsWeb />} />
+    <Route path="/fmf-academy" element={<AcademyWeb />} />
     <Route path="/challenge-pricing" element={<BillingWeb />} />
     <Route path="/affiliate-portal" element={<Affiliates />} />
     <Route path="/contests" element={<Contests />} />
+    <Route path="/special-offers" element={<SpecialOffers />} />
     <Route path="/leaderboards" element={<Leaderboards />} />
     <Route path="/competitions" element={<CompetitionsWeb />} />
     <Route path="/certificates" element={<CertificatesWeb />} />
@@ -85,13 +90,13 @@ function App() {
         {/* {isLoggedIn && window.location.pathname.includes("/web") && ( */}
         {!isLoggedIn && <WebHeader />}
         <Routes>
-          <Route path="/web/*" element={<WebRoutes />} />
+          <Route path="/*" element={<WebRoutes />} />
           <Route
             path="/registration-details"
             element={<RegistrationDetails />}
           />
           <Route
-            path="/*"
+            path="/web/*"
             element={
               <Layout
                 children={
@@ -111,6 +116,7 @@ function App() {
                       path="/affiliate-portal"
                       element={<AffiliatePortal />}
                     />
+                    <Route path="/wallet" element={<Wallet />} />
                   </Routes>
                 }
               />
