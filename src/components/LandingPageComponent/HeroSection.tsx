@@ -156,13 +156,28 @@ const HeroSection: React.FC<HeroSectionProps> = ({ isTraditional }) => {
       </div>
 
       <div
-        className="w-full md:w-11/12 xl:w-[80%] mb-10 md:mb-16 flex-col items-center z-10"
-        id="hero-image"
+        className="w-full md:w-11/12 xl:w-[80%] mb-5 md:mb-8 flex-col items-center z-10 justify-center"
+        id="hero-video"
         data-aos="fade-down"
         data-aos-duration="4000"
       >
-        <div className="aspect-w-139 aspect-h-100">
-          <img src={HeroImage} alt="Hero Image" className="object-cover" />
+        <div className="relative flex justify-center">
+          <div
+            id="video-div"
+            ref={videoRef}
+            className=""
+            style={{ pointerEvents: "none" }}
+          />
+          <div
+            id="video-frame"
+            className="absolute top-0 left-0 w-full h-full"
+            style={{
+              borderTop: "55px solid #0E0C14",
+              borderBottom: "55px solid #0E0C14",
+              backgroundColor: "transparent",
+              pointerEvents: "none",
+            }}
+          />
         </div>
       </div>
 
